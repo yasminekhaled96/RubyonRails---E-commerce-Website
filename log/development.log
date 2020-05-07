@@ -12142,3 +12142,138 @@ Processing by WelcomeController#index as HTML
 Completed 200 OK in 146ms (Views: 15.0ms | ActiveRecord: 118.8ms | Allocations: 11881)
 
 
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CartsHelper, CategoriesHelper, LineItemsHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/marwa/Documents/RubyProject/RubyonRails---E-commerce-Website/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CartsHelper, CategoriesHelper, LineItemsHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/marwa/Documents/RubyProject/RubyonRails---E-commerce-Website/config/environment.rb:5)
+Started GET "/" for ::1 at 2020-05-08 01:21:28 +0200
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/application_controller.rb:32:in `current_cart'
+  [1m[36mCart Create (0.6ms)[0m  [1m[32mINSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-05-07 23:21:28.749946"], ["updated_at", "2020-05-07 23:21:28.749946"]]
+  ↳ app/controllers/application_controller.rb:32:in `current_cart'
+  [1m[35m (65.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/application_controller.rb:32:in `current_cart'
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 338)
+Completed 200 OK in 1945ms (Views: 1822.6ms | ActiveRecord: 67.2ms | Allocations: 344521)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CartsHelper, CategoriesHelper, LineItemsHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/marwa/Documents/RubyProject/RubyonRails---E-commerce-Website/config/environment.rb:5)
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (11.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CartsHelper, CategoriesHelper, LineItemsHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/marwa/Documents/RubyProject/RubyonRails---E-commerce-Website/config/environment.rb:5)
+Started GET "/" for ::1 at 2020-05-08 01:22:53 +0200
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:23:in `current_cart'
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 287)
+Completed 200 OK in 95ms (Views: 78.4ms | ActiveRecord: 0.9ms | Allocations: 41032)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 01:22:55 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  [1m[36mCart Load (0.8ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:23:in `current_cart'
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.7ms | Allocations: 199)
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 514)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 38.1ms | Allocations: 4034)
+Completed 200 OK in 120ms (Views: 58.2ms | ActiveRecord: 2.5ms | Allocations: 20937)
+
+
+Started POST "/users" for ::1 at 2020-05-08 01:23:25 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"lOo+D23TnW5FTSPOUzZK7wSaS2NfTREfwLJAgQ8RowPGPNV05+btA6KSVrHRgbH6nsMM75R48L0d9/c4i+SI0A==", "user"=>{"name"=>"marwa", "email"=>"marwa@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mCart Load (0.7ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:23:in `current_cart'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (29.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "marwa@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["email", "marwa@gmail.com"], ["encrypted_password", "$2a$11$GUeyhfKy8lQRdYPFI/DelOAGPR6ncxYzcMQudjjGjmscxB5TiP3sS"], ["created_at", "2020-05-07 23:23:26.222407"], ["updated_at", "2020-05-07 23:23:26.222407"], ["name", "marwa"]]
+  [1m[35m (73.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 503ms (ActiveRecord: 104.6ms | Allocations: 12707)
+
+
+Started GET "/" for ::1 at 2020-05-08 01:23:26 +0200
+Processing by WelcomeController#index as HTML
+  [1m[36mCart Load (0.4ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:23:in `current_cart'
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 112)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:32
+Completed 200 OK in 65ms (Views: 59.7ms | ActiveRecord: 0.7ms | Allocations: 9816)
+
+
+Started GET "/admin" for ::1 at 2020-05-08 01:23:38 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mCart Load (0.2ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:23:in `current_cart'
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.2ms | Allocations: 996)
+
+
+Started GET "/admin/login" for ::1 at 2020-05-08 01:23:38 +0200
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  [1m[36mCart Load (0.1ms)[0m  [1m[34mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:23:in `current_cart'
+  Rendering /home/marwa/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/marwa/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/devise/shared/_links.erb (Duration: 8.3ms | Allocations: 565)
+  Rendered /home/marwa/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (Duration: 270.5ms | Allocations: 9586)
+Completed 200 OK in 633ms (Views: 613.9ms | ActiveRecord: 1.0ms | Allocations: 89635)
+
+
