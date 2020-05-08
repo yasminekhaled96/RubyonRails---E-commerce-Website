@@ -4,6 +4,10 @@
   <title>E-commerce Platform</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  
+  <%= stylesheet_link_tag 'products', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'jquery.min', 'data-turbolinks-track'=> true %>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-top navbar-fixed-top">
