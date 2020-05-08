@@ -11753,3 +11753,676 @@ Processing by Admin::UsersController#show as HTML
 Completed 200 OK in 133ms (Views: 119.9ms | ActiveRecord: 2.5ms | Allocations: 44590)
 
 
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/yasmine/Desktop/rubyonrails/github/RubyonRails---E-commerce-Website/config/environment.rb:5)
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/yasmine/Desktop/rubyonrails/github/RubyonRails---E-commerce-Website/config/environment.rb:5)
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAdminUser Exists? (2.2ms)[0m  [1m[34mSELECT 1 AS one FROM "admin_users" WHERE "admin_users"."email" = ? LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/yasmine/Desktop/rubyonrails/github/RubyonRails---E-commerce-Website/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2020-05-07 17:01:57 +0200
+  [1m[35m (2.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 17.6ms | Allocations: 338)
+Completed 200 OK in 5013ms (Views: 4914.7ms | ActiveRecord: 0.0ms | Allocations: 309308)
+
+
+Started GET "/admin" for 127.0.0.1 at 2020-05-07 17:02:07 +0200
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 400)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2020-05-07 17:02:07 +0200
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/devise/shared/_links.erb (Duration: 15.0ms | Allocations: 575)
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (Duration: 178.3ms | Allocations: 10300)
+Completed 200 OK in 875ms (Views: 820.1ms | ActiveRecord: 2.6ms | Allocations: 84545)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2020-05-07 17:02:21 +0200
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"8YS3cAjvJcRPKTS+A4lzUfBGcjvxk2EUNsYjFhWu1r6qOjGIh9K7Y7sKWCuCOE+J3XfVPKVozt++TPQzJa/h5Q==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 382ms (ActiveRecord: 0.7ms | Allocations: 6547)
+
+
+Started GET "/admin" for 127.0.0.1 at 2020-05-07 17:02:21 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (1.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb (Duration: 130.5ms | Allocations: 16936)
+Completed 200 OK in 192ms (Views: 154.9ms | ActiveRecord: 1.6ms | Allocations: 20056)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2020-05-07 17:02:25 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.4ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.5ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (17.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (1.0ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 1140.8ms | Allocations: 87370)
+Completed 200 OK in 1272ms (Views: 1156.5ms | ActiveRecord: 31.8ms | Allocations: 92113)
+
+
+Started GET "/admin/comments" for 127.0.0.1 at 2020-05-07 17:02:29 +0200
+Processing by Admin::CommentsController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ?[0m  [["namespace", "admin"]]
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?) subquery_for_count[0m  [["namespace", "admin"], ["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT DISTINCT "active_admin_comments"."resource_type" FROM "active_admin_comments" ORDER BY resource_type asc[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT DISTINCT "active_admin_comments"."author_type" FROM "active_admin_comments" ORDER BY author_type asc[0m
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 159.0ms | Allocations: 34866)
+Completed 200 OK in 186ms (Views: 160.6ms | ActiveRecord: 7.4ms | Allocations: 38439)
+
+
+Started GET "/admin/categories" for 127.0.0.1 at 2020-05-07 17:02:31 +0200
+Processing by Admin::CategoriesController#index as HTML
+  [1m[36mAdminUser Load (1.9ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (4.6ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  [1m[35mCACHE  (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mProduct Load (2.9ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 294.1ms | Allocations: 49269)
+Completed 200 OK in 319ms (Views: 286.9ms | ActiveRecord: 14.9ms | Allocations: 52626)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/yasmine/Desktop/rubyonrails/github/RubyonRails---E-commerce-Website/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2020-05-08 23:13:54 +0200
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 28.9ms | Allocations: 226)
+Completed 200 OK in 2084ms (Views: 2043.1ms | ActiveRecord: 0.0ms | Allocations: 36094)
+
+
+Started GET "/admin" for 127.0.0.1 at 2020-05-08 23:14:00 +0200
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 407)
+
+
+Started GET "/admin/login" for 127.0.0.1 at 2020-05-08 23:14:00 +0200
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/devise/shared/_links.erb (Duration: 15.6ms | Allocations: 575)
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (Duration: 478.4ms | Allocations: 8911)
+Completed 200 OK in 883ms (Views: 843.6ms | ActiveRecord: 2.6ms | Allocations: 29602)
+
+
+Started POST "/admin/login" for 127.0.0.1 at 2020-05-08 23:14:13 +0200
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"G04odSBqa7opQVjp6QASKzOjETqYWdo/eIuCbrQ0kpr1+ZJfdCFDP7QcA7PGP0CNoaggtzV+0XpCNwk0R74etA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (15.5ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 462ms (ActiveRecord: 15.5ms | Allocations: 6211)
+
+
+Started GET "/admin" for 127.0.0.1 at 2020-05-08 23:14:13 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb (Duration: 106.8ms | Allocations: 17055)
+Completed 200 OK in 164ms (Views: 128.9ms | ActiveRecord: 0.7ms | Allocations: 19919)
+
+
+Started GET "/admin/categories" for 127.0.0.1 at 2020-05-08 23:14:18 +0200
+Processing by Admin::CategoriesController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (9.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mProduct Load (1.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 440.6ms | Allocations: 53413)
+Completed 200 OK in 520ms (Views: 463.6ms | ActiveRecord: 17.3ms | Allocations: 57449)
+
+
+Started DELETE "/admin/categories/2" for 127.0.0.1 at 2020-05-08 23:14:23 +0200
+Processing by Admin::CategoriesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2x+KZmMI4C/20TBeJ6O+euwtNuWkMtPJZvq7BhTSQg0Fgv0XFFLmITHa+k+qwiiOTCi9hlHTuFc1/foW8bKFSA==", "id"=>"2"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (1.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Destroy (18.3ms)[0m  [1m[31mDELETE FROM "categories" WHERE "categories"."id" = ?[0m  [["id", 2]]
+  [1m[35m (94.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/categories
+Completed 302 Found in 187ms (ActiveRecord: 114.6ms | Allocations: 12374)
+
+
+Started GET "/admin/categories" for 127.0.0.1 at 2020-05-08 23:14:23 +0200
+Processing by Admin::CategoriesController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCategory Load (0.5ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 300.4ms | Allocations: 41894)
+Completed 200 OK in 322ms (Views: 302.7ms | ActiveRecord: 2.0ms | Allocations: 44086)
+
+
+Started GET "/admin/users" for 127.0.0.1 at 2020-05-08 23:14:34 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (10.7ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (1.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.9ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (4.5ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (3.4ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 585.3ms | Allocations: 79964)
+Completed 200 OK in 613ms (Views: 556.5ms | ActiveRecord: 38.7ms | Allocations: 83609)
+
+
+Started GET "/categories" for 127.0.0.1 at 2020-05-08 23:14:49 +0200
+Processing by CategoriesController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 387)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-05-08 23:14:49 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 16.4ms | Allocations: 588)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 68.2ms | Allocations: 2616)
+Completed 200 OK in 147ms (Views: 142.5ms | ActiveRecord: 0.0ms | Allocations: 12347)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-05-08 23:15:22 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"b7EuKKmiWzO7GLg5Qt34pS4oapaN1ji80qiuPvcv4MbiNwuqMk+QneRBi0JbKAbQ28r+Xea/EJuRkdNHwWGLAA==", "user"=>{"email"=>"yasmina.khaled96@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (16.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "yasmina.khaled96@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 27ms (ActiveRecord: 16.9ms | Allocations: 1941)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"b7EuKKmiWzO7GLg5Qt34pS4oapaN1ji80qiuPvcv4MbiNwuqMk+QneRBi0JbKAbQ28r+Xea/EJuRkdNHwWGLAA==", "user"=>{"email"=>"yasmina.khaled96@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.7ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1039)
+Completed 200 OK in 329ms (Views: 46.6ms | ActiveRecord: 0.0ms | Allocations: 9054)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2020-05-08 23:15:33 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 6.9ms | Allocations: 198)
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 119)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 50.8ms | Allocations: 2187)
+Completed 200 OK in 99ms (Views: 93.2ms | ActiveRecord: 0.0ms | Allocations: 11237)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2020-05-08 23:15:40 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 9.0ms | Allocations: 1042)
+Completed 200 OK in 55ms (Views: 51.2ms | ActiveRecord: 0.0ms | Allocations: 9157)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-05-08 23:15:50 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"mvDUfv2on/HGPmLHRxu6XS3n5xD+lfZAalEWi8/R3p8XdvH8ZkVUX5lnUbxe7kQo2AVz25X83mcpaGvy+Z+1WQ==", "user"=>{"email"=>"mayar@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "mayar@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 14ms (ActiveRecord: 1.3ms | Allocations: 1851)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"mvDUfv2on/HGPmLHRxu6XS3n5xD+lfZAalEWi8/R3p8XdvH8ZkVUX5lnUbxe7kQo2AVz25X83mcpaGvy+Z+1WQ==", "user"=>{"email"=>"mayar@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.9ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1032)
+Completed 200 OK in 259ms (Views: 38.5ms | ActiveRecord: 0.0ms | Allocations: 9033)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2020-05-08 23:16:18 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"EqLuHiBGe2BBN/3Hlz9f10xU6wQUsjBIA1AuPT45202fJMucu6uwzh5uzryOyqGiubZ/z3/bGG9AaVNECHewiw==", "user"=>{"email"=>"mayar@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["email", "mayar@gmail.com"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 12ms (ActiveRecord: 0.3ms | Allocations: 1857)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"EqLuHiBGe2BBN/3Hlz9f10xU6wQUsjBIA1AuPT45202fJMucu6uwzh5uzryOyqGiubZ/z3/bGG9AaVNECHewiw==", "user"=>{"email"=>"mayar@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 131)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.2ms | Allocations: 1032)
+Completed 200 OK in 330ms (Views: 54.7ms | ActiveRecord: 0.0ms | Allocations: 9033)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2020-05-08 23:16:22 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 0.2ms | Allocations: 15)
+  Rendered devise/shared/_links.html.erb (Duration: 0.5ms | Allocations: 79)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 1277)
+Completed 200 OK in 51ms (Views: 46.7ms | ActiveRecord: 0.0ms | Allocations: 9356)
+
+
+Started POST "/users" for 127.0.0.1 at 2020-05-08 23:16:52 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"8qicZlzLVl2L9X3DHWUkllJEeiLU6sDChFeeRTNR6usl0vaBuBl4dhgaC/1MHAtPIXfvzsiIUKfM4Mvx2C2ESg==", "user"=>{"name"=>"marwa", "email"=>"marwa@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "marwa@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (23.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["email", "marwa@gmail.com"], ["encrypted_password", "$2a$11$fIzpFEhbb3l9urv61n/NyOhst0DzuaErhcJwaNXETjoqP1l8ktUVi"], ["created_at", "2020-05-08 21:16:52.332679"], ["updated_at", "2020-05-08 21:16:52.332679"], ["name", "marwa"]]
+  [1m[35m (72.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/categories
+Completed 302 Found in 454ms (ActiveRecord: 96.3ms | Allocations: 9275)
+
+
+Started GET "/categories" for 127.0.0.1 at 2020-05-08 23:16:52 +0200
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 1024)
+Completed 200 OK in 83ms (Views: 67.0ms | ActiveRecord: 1.0ms | Allocations: 11303)
+
+
+Started GET "/categories/new" for 127.0.0.1 at 2020-05-08 23:17:08 +0200
+Processing by CategoriesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering categories/new.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 7.4ms | Allocations: 821)
+  Rendered categories/new.html.erb within layouts/application (Duration: 20.9ms | Allocations: 1151)
+Completed 200 OK in 94ms (Views: 75.8ms | ActiveRecord: 0.3ms | Allocations: 10530)
+
+
+Started POST "/categories" for 127.0.0.1 at 2020-05-08 23:17:17 +0200
+Processing by CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"hhRqC3Yt5RQYqYBSU2sdi8vTLCfqIzhhy4Xe7ihETKkiHg+eeOUbIUHHr+nMOzmH4jRJff3pIaMVQ8BusmODxA==", "category"=>{"name"=>"electronics"}, "commit"=>"Create Category"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:30:in `block in create'
+  [1m[36mCategory Create (0.7ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "electronics"], ["created_at", "2020-05-08 21:17:17.469763"], ["updated_at", "2020-05-08 21:17:17.469763"]]
+  ↳ app/controllers/categories_controller.rb:30:in `block in create'
+  [1m[35m (87.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/categories/3
+Completed 302 Found in 120ms (ActiveRecord: 88.7ms | Allocations: 5341)
+
+
+Started GET "/categories/3" for 127.0.0.1 at 2020-05-08 23:17:17 +0200
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 228)
+Completed 200 OK in 72ms (Views: 52.3ms | ActiveRecord: 0.6ms | Allocations: 10189)
+
+
+Started GET "/categories/3/edit" for 127.0.0.1 at 2020-05-08 23:17:20 +0200
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 3.7ms | Allocations: 573)
+  Rendered categories/edit.html.erb within layouts/application (Duration: 12.6ms | Allocations: 813)
+Completed 200 OK in 69ms (Views: 55.9ms | ActiveRecord: 0.7ms | Allocations: 10735)
+
+
+Started PATCH "/categories/3" for 127.0.0.1 at 2020-05-08 23:17:26 +0200
+Processing by CategoriesController#update as HTML
+  Parameters: {"authenticity_token"=>"sVUus0rZJJ1O81j0+kkfYkVOBcFsgzV0UkxzUqYM4TqO6oOc55db+INXd35DglDvTZusz/iEyZzZRBM6QMDQJg==", "category"=>{"name"=>"electronics 2"}, "commit"=>"Update Category", "id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/categories_controller.rb:44:in `block in update'
+  [1m[36mCategory Update (0.7ms)[0m  [1m[33mUPDATE "categories" SET "name" = ?, "updated_at" = ? WHERE "categories"."id" = ?[0m  [["name", "electronics 2"], ["updated_at", "2020-05-08 21:17:26.576378"], ["id", 3]]
+  ↳ app/controllers/categories_controller.rb:44:in `block in update'
+  [1m[35m (99.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/categories_controller.rb:44:in `block in update'
+Redirected to http://localhost:3000/categories/3
+Completed 302 Found in 143ms (ActiveRecord: 101.3ms | Allocations: 5986)
+
+
+Started GET "/categories/3" for 127.0.0.1 at 2020-05-08 23:17:26 +0200
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 81)
+Completed 200 OK in 54ms (Views: 40.3ms | ActiveRecord: 2.1ms | Allocations: 9877)
+
+
+Started GET "/categories" for 127.0.0.1 at 2020-05-08 23:17:30 +0200
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 882)
+Completed 200 OK in 59ms (Views: 47.1ms | ActiveRecord: 0.7ms | Allocations: 10115)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2020-05-08 23:17:32 +0200
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 77)
+Completed 200 OK in 58ms (Views: 37.8ms | ActiveRecord: 0.6ms | Allocations: 9839)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2020-05-08 23:17:36 +0200
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.6ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 77)
+Completed 200 OK in 42ms (Views: 31.0ms | ActiveRecord: 0.9ms | Allocations: 9833)
+
+
+Started GET "/categories/1/edit" for 127.0.0.1 at 2020-05-08 23:17:41 +0200
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 3.1ms | Allocations: 543)
+  Rendered categories/edit.html.erb within layouts/application (Duration: 4.0ms | Allocations: 656)
+Completed 200 OK in 48ms (Views: 37.2ms | ActiveRecord: 0.6ms | Allocations: 10426)
+
+
+Started GET "/categories/3" for 127.0.0.1 at 2020-05-08 23:17:48 +0200
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 77)
+Completed 200 OK in 65ms (Views: 44.7ms | ActiveRecord: 0.6ms | Allocations: 9862)
+
+
+Started GET "/categories" for 127.0.0.1 at 2020-05-08 23:17:50 +0200
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (3.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 881)
+Completed 200 OK in 75ms (Views: 58.5ms | ActiveRecord: 3.6ms | Allocations: 10114)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2020-05-08 23:18:14 +0200
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 77)
+Completed 200 OK in 68ms (Views: 37.5ms | ActiveRecord: 0.8ms | Allocations: 9881)
+
+
+Started GET "/categories" for 127.0.0.1 at 2020-05-08 23:18:17 +0200
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 6.7ms | Allocations: 881)
+Completed 200 OK in 66ms (Views: 55.1ms | ActiveRecord: 0.7ms | Allocations: 10165)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2020-05-08 23:18:20 +0200
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 77)
+Completed 200 OK in 61ms (Views: 40.5ms | ActiveRecord: 2.0ms | Allocations: 9840)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2020-05-08 23:20:12 +0200
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 2.7ms | Allocations: 77)
+Completed 200 OK in 62ms (Views: 47.7ms | ActiveRecord: 0.7ms | Allocations: 9844)
+
+
+Started GET "/categories" for 127.0.0.1 at 2020-05-08 23:20:15 +0200
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 881)
+Completed 200 OK in 64ms (Views: 50.1ms | ActiveRecord: 0.9ms | Allocations: 10128)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2020-05-08 23:20:21 +0200
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (1.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 77)
+Completed 200 OK in 53ms (Views: 39.1ms | ActiveRecord: 1.3ms | Allocations: 9833)
+
+
+Started GET "/categories/1/edit" for 127.0.0.1 at 2020-05-08 23:20:23 +0200
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 4.3ms | Allocations: 543)
+  Rendered categories/edit.html.erb within layouts/application (Duration: 9.6ms | Allocations: 656)
+Completed 200 OK in 64ms (Views: 48.7ms | ActiveRecord: 0.6ms | Allocations: 10426)
+
+
+Started GET "/categories" for 127.0.0.1 at 2020-05-08 23:20:26 +0200
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 881)
+Completed 200 OK in 71ms (Views: 55.5ms | ActiveRecord: 0.6ms | Allocations: 10126)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/yasmine/Desktop/rubyonrails/github/RubyonRails---E-commerce-Website/config/environment.rb:5)
+Started GET "/" for 127.0.0.1 at 2020-05-09 00:08:31 +0200
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (12.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 37.2ms | Allocations: 226)
+  [1m[36mUser Load (14.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:32
+Completed 200 OK in 972ms (Views: 921.7ms | ActiveRecord: 22.1ms | Allocations: 43851)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2020-05-09 00:08:35 +0200
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering devise/registrations/edit.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 16.7ms | Allocations: 199)
+  Rendered devise/registrations/edit.html.erb within layouts/application (Duration: 197.5ms | Allocations: 3367)
+Completed 200 OK in 310ms (Views: 252.0ms | ActiveRecord: 0.3ms | Allocations: 14401)
+
+
+Started GET "/categories" for 127.0.0.1 at 2020-05-09 00:08:51 +0200
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (14.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 53.6ms | Allocations: 3293)
+Completed 200 OK in 161ms (Views: 127.7ms | ActiveRecord: 16.8ms | Allocations: 13521)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2020-05-09 00:08:54 +0200
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (1.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 5.5ms | Allocations: 228)
+Completed 200 OK in 56ms (Views: 41.7ms | ActiveRecord: 1.6ms | Allocations: 10279)
+
+
+Started GET "/categories" for 127.0.0.1 at 2020-05-09 00:08:56 +0200
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 884)
+Completed 200 OK in 46ms (Views: 38.5ms | ActiveRecord: 0.7ms | Allocations: 10123)
+
+
+Started GET "/categories/1" for 127.0.0.1 at 2020-05-09 00:08:59 +0200
+Processing by CategoriesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/show.html.erb within layouts/application
+  Rendered categories/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 78)
+Completed 200 OK in 57ms (Views: 43.9ms | ActiveRecord: 0.6ms | Allocations: 9873)
+
+
+Started GET "/categories/1/edit" for 127.0.0.1 at 2020-05-09 00:09:02 +0200
+Processing by CategoriesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/categories_controller.rb:67:in `set_category'
+  Rendering categories/edit.html.erb within layouts/application
+  Rendered categories/_form.html.erb (Duration: 14.3ms | Allocations: 878)
+  Rendered categories/edit.html.erb within layouts/application (Duration: 33.7ms | Allocations: 1255)
+Completed 200 OK in 88ms (Views: 70.9ms | ActiveRecord: 0.6ms | Allocations: 11144)
+
+
+Started GET "/categories" for 127.0.0.1 at 2020-05-09 00:09:05 +0200
+Processing by CategoriesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/categories/index.html.erb:14
+  Rendered categories/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 884)
+Completed 200 OK in 54ms (Views: 43.1ms | ActiveRecord: 0.6ms | Allocations: 10119)
+
+
+Started GET "/admin" for 127.0.0.1 at 2020-05-09 00:09:13 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (7.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/yasmine/.rvm/gems/ruby-2.7.1/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb (Duration: 158.4ms | Allocations: 18232)
+Completed 200 OK in 238ms (Views: 164.3ms | ActiveRecord: 8.8ms | Allocations: 25525)
+
+
