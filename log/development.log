@@ -11746,3 +11746,1979 @@ Processing by Admin::UsersController#show as HTML
 Completed 200 OK in 133ms (Views: 119.9ms | ActiveRecord: 2.5ms | Allocations: 44590)
 
 
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/mayar/ITI Open Source 40/Ruby on Rails/Project/RubyonRails---E-commerce-Website/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/mayar/ITI Open Source 40/Ruby on Rails/Project/RubyonRails---E-commerce-Website/config/environment.rb:5)
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAdminUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "admin_users" WHERE "admin_users"."email" = ? LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/mayar/ITI Open Source 40/Ruby on Rails/Project/RubyonRails---E-commerce-Website/config/environment.rb:5)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAdminUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "admin_users" WHERE "admin_users"."email" = ? LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/mayar/ITI Open Source 40/Ruby on Rails/Project/RubyonRails---E-commerce-Website/config/environment.rb:5)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAdminUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "admin_users" WHERE "admin_users"."email" = ? LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/mayar/ITI Open Source 40/Ruby on Rails/Project/RubyonRails---E-commerce-Website/config/environment.rb:5)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/mayar/ITI Open Source 40/Ruby on Rails/Project/RubyonRails---E-commerce-Website/config/environment.rb:5)
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAdminUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "admin_users" WHERE "admin_users"."email" = ? LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/mayar/ITI Open Source 40/Ruby on Rails/Project/RubyonRails---E-commerce-Website/config/environment.rb:5)
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAdminUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "admin_users" WHERE "admin_users"."email" = ? LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/mayar/ITI Open Source 40/Ruby on Rails/Project/RubyonRails---E-commerce-Website/config/environment.rb:5)
+Started GET "/" for ::1 at 2020-05-07 16:49:22 +0200
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.9ms | Allocations: 425)
+Completed 200 OK in 1015ms (Views: 998.0ms | ActiveRecord: 0.0ms | Allocations: 380992)
+
+
+Started GET "/admin" for ::1 at 2020-05-07 16:49:29 +0200
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 2ms (ActiveRecord: 0.0ms | Allocations: 427)
+
+
+Started GET "/admin/login" for ::1 at 2020-05-07 16:49:29 +0200
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/devise/shared/_links.erb (Duration: 2.2ms | Allocations: 575)
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (Duration: 39.8ms | Allocations: 10304)
+Completed 200 OK in 285ms (Views: 254.1ms | ActiveRecord: 1.1ms | Allocations: 111844)
+
+
+Started POST "/admin/login" for ::1 at 2020-05-07 16:49:58 +0200
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"zInDuXFKqcyrZT4B0SqgseumW8uc+sNrBjlaimG/CTHp2egBzVmZ9Y9fg/QHGv3TwlJwdbedythxT2GKw9aWDQ==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 124ms (ActiveRecord: 0.2ms | Allocations: 6636)
+
+
+Started GET "/admin" for ::1 at 2020-05-07 16:49:58 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb (Duration: 37.2ms | Allocations: 24154)
+Completed 200 OK in 53ms (Views: 38.9ms | ActiveRecord: 0.2ms | Allocations: 27294)
+
+
+Started GET "/admin/categories" for ::1 at 2020-05-07 16:50:04 +0200
+Processing by Admin::CategoriesController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 117.0ms | Allocations: 62041)
+Completed 200 OK in 139ms (Views: 118.0ms | ActiveRecord: 2.8ms | Allocations: 66284)
+
+
+Started GET "/admin/categories/new" for ::1 at 2020-05-07 16:50:20 +0200
+Processing by Admin::CategoriesController#new as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 46.8ms | Allocations: 27371)
+Completed 200 OK in 53ms (Views: 49.7ms | ActiveRecord: 0.1ms | Allocations: 30275)
+
+
+Started POST "/admin/categories" for ::1 at 2020-05-07 16:50:27 +0200
+Processing by Admin::CategoriesController#create as HTML
+  Parameters: {"authenticity_token"=>"jZ5W4Qfnzljs2FY8WOYX2QZEtylgSZFsX+qhuxKdkRX9u3ExoSk4siPoq9chYmJMlhroJ5mQEGUI/GrhydYM3Q==", "category"=>{"name"=>"new"}, "commit"=>"Create Category"}
+  [1m[36mAdminUser Load (0.8ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCategory Create (1.7ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "new"], ["created_at", "2020-05-07 14:50:27.723879"], ["updated_at", "2020-05-07 14:50:27.723879"]]
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/categories/3
+Completed 302 Found in 41ms (ActiveRecord: 9.3ms | Allocations: 11383)
+
+
+Started GET "/admin/categories/3" for ::1 at 2020-05-07 16:50:27 +0200
+Processing by Admin::CategoriesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Category"], ["resource_id", 3], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Category"], ["resource_id", 3], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb (Duration: 61.0ms | Allocations: 41811)
+Completed 200 OK in 71ms (Views: 61.1ms | ActiveRecord: 1.7ms | Allocations: 45997)
+
+
+Started GET "/admin/categories" for ::1 at 2020-05-07 16:50:31 +0200
+Processing by Admin::CategoriesController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 75.5ms | Allocations: 52748)
+Completed 200 OK in 80ms (Views: 75.6ms | ActiveRecord: 1.0ms | Allocations: 54938)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-07 16:50:38 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.7ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.2ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 186.5ms | Allocations: 91199)
+Completed 200 OK in 197ms (Views: 186.6ms | ActiveRecord: 4.1ms | Allocations: 94870)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constants ApplicationHelper, BrandsHelper, CategoriesHelper, OrderProductsHelper, OrdersHelper, ProductsHelper, StoresHelper, WelcomeHelper, DeviseHelper, ApplicationController, InheritedResources::Base, DeviseController, Devise::SessionsController, Devise::PasswordsController, Devise::UnlocksController, Devise::RegistrationsController, Devise::ConfirmationsController, ActionText::ContentHelper, and ActionText::TagHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload ApplicationHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+These autoloaded constants have been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/mayar/ITI Open Source 40/Ruby on Rails/Project/RubyonRails---E-commerce-Website/config/environment.rb:5)
+Started GET "/" for ::1 at 2020-05-07 22:32:01 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 383)
+Completed 200 OK in 91ms (Views: 84.9ms | ActiveRecord: 0.0ms | Allocations: 49403)
+
+
+Started GET "/admin" for ::1 at 2020-05-07 22:32:06 +0200
+Processing by Admin::DashboardController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 417)
+
+
+Started GET "/admin/login" for ::1 at 2020-05-07 22:32:06 +0200
+Processing by ActiveAdmin::Devise::SessionsController#new as HTML
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/devise/shared/_links.erb (Duration: 0.9ms | Allocations: 575)
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/devise/sessions/new.html.erb within layouts/active_admin_logged_out (Duration: 15.0ms | Allocations: 8915)
+Completed 200 OK in 49ms (Views: 34.3ms | ActiveRecord: 0.9ms | Allocations: 36412)
+
+
+Started POST "/admin/login" for ::1 at 2020-05-07 22:32:10 +0200
+Processing by ActiveAdmin::Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"5UWfT1ev4MfDio3bN0XRw1ENLQ8QDOUvKUMODfTCshRLWFaA0O1+aHu5weQPeE0n7oueq0Q3dNTOb4Y/PjHXoA==", "admin_user"=>{"email"=>"admin@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Login"}
+  [1m[36mAdminUser Load (0.6ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."email" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["email", "admin@example.com"], ["LIMIT", 1]]
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 115ms (ActiveRecord: 0.6ms | Allocations: 6228)
+
+
+Started GET "/admin" for ::1 at 2020-05-07 22:32:10 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb (Duration: 18.4ms | Allocations: 23999)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.1ms | Allocations: 26860)
+
+
+Started GET "/admin/admin_users" for ::1 at 2020-05-07 22:32:12 +0200
+Processing by Admin::AdminUsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "admin_users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "admin_users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" ORDER BY "admin_users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 54.3ms | Allocations: 48129)
+Completed 200 OK in 75ms (Views: 57.8ms | ActiveRecord: 0.9ms | Allocations: 51795)
+
+
+Started GET "/admin/brands" for ::1 at 2020-05-07 22:32:14 +0200
+Processing by Admin::BrandsController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "brands" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "brands" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "brands"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "brands" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mBrand Load (0.1ms)[0m  [1m[34mSELECT "brands".* FROM "brands" ORDER BY "brands"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 46.3ms | Allocations: 55691)
+Completed 200 OK in 52ms (Views: 46.5ms | ActiveRecord: 1.3ms | Allocations: 59210)
+
+
+Started GET "/admin/categories" for ::1 at 2020-05-07 22:32:15 +0200
+Processing by Admin::CategoriesController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 54.8ms | Allocations: 55351)
+Completed 200 OK in 66ms (Views: 57.0ms | ActiveRecord: 1.6ms | Allocations: 58707)
+
+
+Started GET "/admin/comments" for ::1 at 2020-05-07 22:32:16 +0200
+Processing by Admin::CommentsController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ?[0m  [["namespace", "admin"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?) subquery_for_count[0m  [["namespace", "admin"], ["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT DISTINCT "active_admin_comments"."resource_type" FROM "active_admin_comments" ORDER BY resource_type asc[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT DISTINCT "active_admin_comments"."author_type" FROM "active_admin_comments" ORDER BY author_type asc[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 40.6ms | Allocations: 41960)
+Completed 200 OK in 52ms (Views: 43.1ms | ActiveRecord: 1.6ms | Allocations: 45556)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-07 22:32:17 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 70.5ms | Allocations: 86819)
+Completed 200 OK in 75ms (Views: 69.5ms | ActiveRecord: 2.3ms | Allocations: 90508)
+
+
+Started GET "/admin/users/1/edit" for ::1 at 2020-05-07 22:32:29 +0200
+Processing by Admin::UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/edit.html.arb (Duration: 57.3ms | Allocations: 47418)
+Completed 200 OK in 68ms (Views: 60.9ms | ActiveRecord: 0.5ms | Allocations: 51465)
+
+
+Started PATCH "/admin/users/1" for ::1 at 2020-05-07 22:32:33 +0200
+Processing by Admin::UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"N/qalR2VcqltIfxipPel5qWEnpWzP6Uvt4Zg8Qdu47tGC6PiAyVqdFDdg9xcuKZhPe9HAli588QmBjibbriNeA==", "user"=>{"email"=>"yasmine@gmail.com", "reset_password_token"=>"[FILTERED]", "reset_password_sent_at(1i)"=>"[FILTERED]", "reset_password_sent_at(2i)"=>"[FILTERED]", "reset_password_sent_at(3i)"=>"[FILTERED]", "reset_password_sent_at(4i)"=>"[FILTERED]", "reset_password_sent_at(5i)"=>"[FILTERED]", "remember_created_at(1i)"=>"", "remember_created_at(2i)"=>"", "remember_created_at(3i)"=>"", "remember_created_at(4i)"=>"", "remember_created_at(5i)"=>"", "name"=>"yasmine", "seller_role"=>"1", "buyer_role"=>"1"}, "commit"=>"Update User", "id"=>"1"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (8.5ms)[0m  [1m[33mUPDATE "users" SET "reset_password_token" = ?, "seller_role" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["reset_password_token", ""], ["seller_role", 1], ["updated_at", "2020-05-07 20:32:33.206024"], ["id", 1]]
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/users/1
+Completed 302 Found in 33ms (ActiveRecord: 15.2ms | Allocations: 14012)
+
+
+Started GET "/admin/users/1" for ::1 at 2020-05-07 22:32:33 +0200
+Processing by Admin::UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "User"], ["resource_id", 1], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "User"], ["resource_id", 1], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb (Duration: 33.1ms | Allocations: 43015)
+Completed 200 OK in 39ms (Views: 34.4ms | ActiveRecord: 0.4ms | Allocations: 46930)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-07 22:32:36 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.0ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 66.0ms | Allocations: 69149)
+Completed 200 OK in 73ms (Views: 66.1ms | ActiveRecord: 1.0ms | Allocations: 71344)
+
+
+Started GET "/admin/categories" for ::1 at 2020-05-07 23:05:05 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Admin::CategoriesController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "categories"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "categories" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories" ORDER BY "categories"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 33.6ms | Allocations: 52625)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.5ms | Allocations: 54835)
+
+
+Started GET "/" for ::1 at 2020-05-07 23:36:44 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 9451)
+
+
+Started GET "/" for ::1 at 2020-05-07 23:36:49 +0200
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 9437)
+
+
+Started GET "/admin" for ::1 at 2020-05-07 23:37:10 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb (Duration: 14.5ms | Allocations: 23130)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.2ms | Allocations: 25032)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-07 23:37:17 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 68.7ms | Allocations: 69186)
+Completed 200 OK in 76ms (Views: 68.9ms | ActiveRecord: 1.0ms | Allocations: 71363)
+
+
+Started GET "/admin/users/new" for ::1 at 2020-05-07 23:37:23 +0200
+Processing by Admin::UsersController#new as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 33.8ms | Allocations: 41767)
+Completed 200 OK in 39ms (Views: 35.1ms | ActiveRecord: 0.2ms | Allocations: 44678)
+
+
+Started POST "/admin/users" for ::1 at 2020-05-07 23:37:36 +0200
+Processing by Admin::UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"mV1FtjSk4Ng5sycm8D2MqEFWbdbZWeO81mQqZO1tM0rorHzBKhT4BQRPWJgIco8v2T20QTLftVdH5HIOhLtdiQ==", "user"=>{"email"=>"manar@gmail.com", "reset_password_token"=>"[FILTERED]", "reset_password_sent_at(1i)"=>"[FILTERED]", "reset_password_sent_at(2i)"=>"[FILTERED]", "reset_password_sent_at(3i)"=>"[FILTERED]", "reset_password_sent_at(4i)"=>"[FILTERED]", "reset_password_sent_at(5i)"=>"[FILTERED]", "remember_created_at(1i)"=>"", "remember_created_at(2i)"=>"", "remember_created_at(3i)"=>"", "remember_created_at(4i)"=>"", "remember_created_at(5i)"=>"", "name"=>"admin@example.com", "seller_role"=>"0", "buyer_role"=>"1"}, "commit"=>"Create User"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manar@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 30.7ms | Allocations: 41529)
+Completed 200 OK in 45ms (Views: 31.2ms | ActiveRecord: 0.3ms | Allocations: 53311)
+
+
+Started POST "/admin/users" for ::1 at 2020-05-07 23:37:45 +0200
+Processing by Admin::UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"+dUZ27zQUgvZS1eTxA1kkSU9mRdZDMbuvP5KuxDhcQiIJCCsomBK1uS3KC08QmcWvVZAgLKKkAUtfhLReTcfyw==", "user"=>{"email"=>"manar@gmail.com", "reset_password_token"=>"[FILTERED]", "reset_password_sent_at(1i)"=>"[FILTERED]", "reset_password_sent_at(2i)"=>"[FILTERED]", "reset_password_sent_at(3i)"=>"[FILTERED]", "reset_password_sent_at(4i)"=>"[FILTERED]", "reset_password_sent_at(5i)"=>"[FILTERED]", "remember_created_at(1i)"=>"", "remember_created_at(2i)"=>"", "remember_created_at(3i)"=>"", "remember_created_at(4i)"=>"", "remember_created_at(5i)"=>"", "name"=>"manar", "seller_role"=>"0", "buyer_role"=>"1"}, "commit"=>"Create User"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manar@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 25.0ms | Allocations: 40304)
+Completed 200 OK in 38ms (Views: 25.5ms | ActiveRecord: 0.4ms | Allocations: 49867)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-07 23:37:49 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.0ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 46.4ms | Allocations: 69122)
+Completed 200 OK in 50ms (Views: 46.3ms | ActiveRecord: 0.6ms | Allocations: 71300)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-07 23:40:54 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 80.7ms | Allocations: 86001)
+Completed 200 OK in 96ms (Views: 79.0ms | ActiveRecord: 4.6ms | Allocations: 95617)
+
+
+Started GET "/admin/brands" for ::1 at 2020-05-07 23:42:43 +0200
+Processing by Admin::BrandsController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "brands" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "brands" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "brands"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "brands" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mBrand Load (0.1ms)[0m  [1m[34mSELECT "brands".* FROM "brands" ORDER BY "brands"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 64.2ms | Allocations: 56483)
+Completed 200 OK in 68ms (Views: 64.6ms | ActiveRecord: 1.1ms | Allocations: 59307)
+
+
+Started GET "/admin/brands" for ::1 at 2020-05-07 23:45:19 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Admin::BrandsController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "brands" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "brands" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "brands"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "brands" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mBrand Load (0.1ms)[0m  [1m[34mSELECT "brands".* FROM "brands" ORDER BY "brands"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 45.1ms | Allocations: 56519)
+Completed 200 OK in 58ms (Views: 45.4ms | ActiveRecord: 1.8ms | Allocations: 65875)
+
+
+Started GET "/admin/stores" for ::1 at 2020-05-07 23:45:21 +0200
+Processing by Admin::StoresController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProduct Load (0.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 38.4ms | Allocations: 47444)
+Completed 200 OK in 43ms (Views: 39.1ms | ActiveRecord: 1.0ms | Allocations: 50866)
+
+
+Started GET "/admin/stores/new" for ::1 at 2020-05-07 23:45:23 +0200
+Processing by Admin::StoresController#new as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 32.2ms | Allocations: 34979)
+Completed 200 OK in 38ms (Views: 32.9ms | ActiveRecord: 0.2ms | Allocations: 40378)
+
+
+Started POST "/admin/stores" for ::1 at 2020-05-07 23:45:38 +0200
+Processing by Admin::StoresController#create as HTML
+  Parameters: {"authenticity_token"=>"8geFyOzLC7MSzaZas1Ap92VsZQ+taUk5rHmgApS53UWD9ry/8nsTbi8x2eRLHypw/Qe8mEbvH9I9+fho/W+zhg==", "store"=>{"user_id"=>"1", "name"=>"store 1", "summary"=>"test "}, "commit"=>"Create Store"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[31mUnpermitted parameters: :user_id, :summary[0m
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 31.7ms | Allocations: 33310)
+Completed 200 OK in 41ms (Views: 32.1ms | ActiveRecord: 0.2ms | Allocations: 38552)
+
+
+Started POST "/admin/stores" for ::1 at 2020-05-07 23:45:46 +0200
+Processing by Admin::StoresController#create as HTML
+  Parameters: {"authenticity_token"=>"eooMKL2lC2NlLwMSUnVheBSHyHcqClYBWZr+IwlafWcLezVfoxUTvljTfKyqOmL/jOwR4MGMAOrIGqZJYIwTpA==", "store"=>{"user_id"=>"2", "name"=>"store 1", "summary"=>"test "}, "commit"=>"Create Store"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[31mUnpermitted parameters: :user_id, :summary[0m
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 25.6ms | Allocations: 32628)
+Completed 200 OK in 34ms (Views: 26.4ms | ActiveRecord: 0.4ms | Allocations: 37204)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-07 23:47:23 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 64.2ms | Allocations: 80203)
+Completed 200 OK in 72ms (Views: 63.1ms | ActiveRecord: 2.0ms | Allocations: 82639)
+
+
+Started GET "/admin/users/new" for ::1 at 2020-05-07 23:47:25 +0200
+Processing by Admin::UsersController#new as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 28.5ms | Allocations: 40713)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.1ms | Allocations: 42767)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-07 23:47:28 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.2ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.0ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 57.2ms | Allocations: 69378)
+Completed 200 OK in 60ms (Views: 56.8ms | ActiveRecord: 0.8ms | Allocations: 71567)
+
+
+Started GET "/admin/stores" for ::1 at 2020-05-08 00:02:30 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Admin::StoresController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 44.2ms | Allocations: 49805)
+Completed 200 OK in 55ms (Views: 44.4ms | ActiveRecord: 0.5ms | Allocations: 58556)
+
+
+Started GET "/admin/stores/new" for ::1 at 2020-05-08 00:02:31 +0200
+Processing by Admin::StoresController#new as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 21.1ms | Allocations: 33971)
+Completed 200 OK in 27ms (Views: 21.4ms | ActiveRecord: 0.2ms | Allocations: 38784)
+
+
+Started POST "/admin/stores" for ::1 at 2020-05-08 00:02:41 +0200
+Processing by Admin::StoresController#create as HTML
+  Parameters: {"authenticity_token"=>"u/y+EjBrPDzzPyefibn2StruvuBF1Qn5s+qMCO6d8w3KDYdlLtsk4c7DWCFx9vXNQoVnd65TXxIiatRih0udzg==", "store"=>{"user_id"=>"1", "name"=>"store 1", "summary"=>"test "}, "commit"=>"Create Store"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+[31mUnpermitted parameter: :summary[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mStore Create (0.3ms)[0m  [1m[32mINSERT INTO "stores" ("name", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "store 1"], ["user_id", 1], ["created_at", "2020-05-07 22:02:41.035027"], ["updated_at", "2020-05-07 22:02:41.035027"]]
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/stores/1
+Completed 302 Found in 32ms (ActiveRecord: 7.4ms | Allocations: 12917)
+
+
+Started GET "/admin/stores/1" for ::1 at 2020-05-08 00:02:41 +0200
+Processing by Admin::StoresController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores" WHERE "stores"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Store"], ["resource_id", 1], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Store"], ["resource_id", 1], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb (Duration: 29.1ms | Allocations: 38639)
+Completed 200 OK in 33ms (Views: 29.8ms | ActiveRecord: 0.4ms | Allocations: 42340)
+
+
+Started GET "/admin/stores" for ::1 at 2020-05-08 00:02:45 +0200
+Processing by Admin::StoresController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "stores"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores" ORDER BY "stores"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProduct Load (0.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 36.8ms | Allocations: 56556)
+Completed 200 OK in 40ms (Views: 36.7ms | ActiveRecord: 0.6ms | Allocations: 58742)
+
+
+Started GET "/admin/stores/new" for ::1 at 2020-05-08 00:03:10 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Admin::StoresController#new as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 32.8ms | Allocations: 41298)
+Completed 200 OK in 46ms (Views: 32.7ms | ActiveRecord: 1.4ms | Allocations: 53261)
+
+
+Started POST "/admin/stores" for ::1 at 2020-05-08 00:03:22 +0200
+Processing by Admin::StoresController#create as HTML
+  Parameters: {"authenticity_token"=>"lCEmdQCOxUAFOJ455eyWHs5Lgh3enIO2wUzj4yKlEizl0B8CHj7dnTjE4Ycdo5WZViBbijUa1V1QzLuJS3N87w==", "store"=>{"user_id"=>"2", "name"=>"store 2", "summary"=>"test "}, "commit"=>"Create Store"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mStore Create (0.5ms)[0m  [1m[32mINSERT INTO "stores" ("name", "summary", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "store 2"], ["summary", "test "], ["user_id", 2], ["created_at", "2020-05-07 22:03:22.252202"], ["updated_at", "2020-05-07 22:03:22.252202"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/stores/2
+Completed 302 Found in 20ms (ActiveRecord: 6.5ms | Allocations: 11848)
+
+
+Started GET "/admin/stores/2" for ::1 at 2020-05-08 00:03:22 +0200
+Processing by Admin::StoresController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mStore Load (0.4ms)[0m  [1m[34mSELECT "stores".* FROM "stores" WHERE "stores"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Store"], ["resource_id", 2], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Store"], ["resource_id", 2], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb (Duration: 54.6ms | Allocations: 38649)
+Completed 200 OK in 61ms (Views: 54.7ms | ActiveRecord: 0.8ms | Allocations: 41832)
+
+
+Started GET "/admin/stores" for ::1 at 2020-05-08 00:16:23 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Admin::StoresController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "stores"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores" ORDER BY "stores"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProduct Load (0.1ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 58.4ms | Allocations: 67094)
+Completed 200 OK in 65ms (Views: 59.2ms | ActiveRecord: 1.5ms | Allocations: 69413)
+
+
+Started GET "/admin/stores/new" for ::1 at 2020-05-08 00:16:26 +0200
+Processing by Admin::StoresController#new as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 24.9ms | Allocations: 32708)
+Completed 200 OK in 30ms (Views: 25.2ms | ActiveRecord: 0.3ms | Allocations: 34744)
+
+
+Started POST "/admin/stores" for ::1 at 2020-05-08 00:16:40 +0200
+Processing by Admin::StoresController#create as HTML
+  Parameters: {"authenticity_token"=>"yJSDkrHqdBUF/uIVZ3RAGC+oyn5kIGl1RyMUIF/oM6O5Zbrlr1psyDgCnaufO0Oft8MT6Y+mP57Wo0xKNj5dYA==", "store"=>{"user_id"=>"1", "name"=>"store 3", "summary"=>"test test"}, "commit"=>"Create Store"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mStore Create (0.4ms)[0m  [1m[32mINSERT INTO "stores" ("name", "summary", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "store 3"], ["summary", "test test"], ["user_id", 1], ["created_at", "2020-05-07 22:16:40.275015"], ["updated_at", "2020-05-07 22:16:40.275015"]]
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/stores/3
+Completed 302 Found in 34ms (ActiveRecord: 7.7ms | Allocations: 10919)
+
+
+Started GET "/admin/stores/3" for ::1 at 2020-05-08 00:16:40 +0200
+Processing by Admin::StoresController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mStore Load (0.2ms)[0m  [1m[34mSELECT "stores".* FROM "stores" WHERE "stores"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Store"], ["resource_id", 3], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Store"], ["resource_id", 3], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb (Duration: 31.4ms | Allocations: 37926)
+Completed 200 OK in 38ms (Views: 31.6ms | ActiveRecord: 0.8ms | Allocations: 40979)
+
+
+Started GET "/admin/stores" for ::1 at 2020-05-08 00:16:43 +0200
+Processing by Admin::StoresController#index as HTML
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "stores"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores" ORDER BY "stores"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProduct Load (0.0ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 45.4ms | Allocations: 65679)
+Completed 200 OK in 48ms (Views: 45.3ms | ActiveRecord: 0.6ms | Allocations: 67859)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 00:50:43 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms | Allocations: 400)
+
+
+Started GET "/users/sign_in" for ::1 at 2020-05-08 00:50:43 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.3ms | Allocations: 589)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 6.1ms | Allocations: 2592)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 13786)
+
+
+Started GET "/users/sign_up" for ::1 at 2020-05-08 00:50:53 +0200
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 198)
+  Rendered devise/shared/_links.html.erb (Duration: 0.6ms | Allocations: 119)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 9.9ms | Allocations: 2176)
+Completed 200 OK in 28ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 12741)
+
+
+Started POST "/users" for ::1 at 2020-05-08 00:51:19 +0200
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"V8vRFx21TH3fkhT13blSTngiW3BD326JhcmZCJqJD23MTZExFcvbBhrVUOK9nIt7Dh7PJQ7/cFVjmSEbGGJ7Rw==", "user"=>{"name"=>"mayar", "email"=>"mayar@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "mayar@gmail.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at", "name") VALUES (?, ?, ?, ?, ?)[0m  [["email", "mayar@gmail.com"], ["encrypted_password", "$2a$11$bZycHg0ntSmw3bGcOFgMMODmC8vgfRJwERht0JW.HWTJ5Qleg81v."], ["created_at", "2020-05-07 22:51:19.189419"], ["updated_at", "2020-05-07 22:51:19.189419"], ["name", "mayar"]]
+  [1m[35m (8.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/orders
+Completed 302 Found in 114ms (ActiveRecord: 9.2ms | Allocations: 9164)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 00:51:19 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1341)
+Completed 200 OK in 14ms (Views: 10.0ms | ActiveRecord: 0.4ms | Allocations: 14772)
+
+
+Started GET "/products" for ::1 at 2020-05-08 00:51:43 +0200
+Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms | Allocations: 3089)
+
+
+  
+CanCan::AccessDenied (You are not authorized to access this page.):
+  
+cancancan (3.1.0) lib/cancan/ability.rb:180:in `authorize!'
+cancancan (3.1.0) lib/cancan/controller_additions.rb:339:in `authorize!'
+cancancan (3.1.0) lib/cancan/controller_resource.rb:40:in `authorize_resource'
+cancancan (3.1.0) lib/cancan/controller_resource.rb:34:in `load_and_authorize_resource'
+cancancan (3.1.0) lib/cancan/controller_resource.rb:17:in `block in add_before_action'
+activesupport (6.0.3) lib/active_support/callbacks.rb:428:in `instance_exec'
+activesupport (6.0.3) lib/active_support/callbacks.rb:428:in `block in make_lambda'
+activesupport (6.0.3) lib/active_support/callbacks.rb:200:in `block (2 levels) in halting'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (6.0.3) lib/active_support/callbacks.rb:201:in `block in halting'
+activesupport (6.0.3) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (6.0.3) lib/active_support/callbacks.rb:513:in `each'
+activesupport (6.0.3) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (6.0.3) lib/active_support/callbacks.rb:134:in `run_callbacks'
+actionpack (6.0.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.3) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.3) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.3) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.3) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.3) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.3) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.3) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.0.3) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.3) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.3) lib/action_dispatch/routing/route_set.rb:834:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.2.2) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.2) lib/rack/etag.rb:27:in `call'
+rack (2.2.2) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.2) lib/rack/head.rb:12:in `call'
+actionpack (6.0.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.2) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.2) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.3) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/cart" for ::1 at 2020-05-08 00:52:53 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/cart"):
+  
+actionpack (6.0.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.2) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.2) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.2) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/method_override.rb:24:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/brands" for ::1 at 2020-05-08 00:53:02 +0200
+Processing by BrandsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering brands/index.html.erb within layouts/application
+  [1m[36mBrand Load (0.1ms)[0m  [1m[34mSELECT "brands".* FROM "brands"[0m
+  ↳ app/views/brands/index.html.erb:14
+  Rendered brands/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3220)
+Completed 200 OK in 17ms (Views: 13.3ms | ActiveRecord: 0.5ms | Allocations: 15045)
+
+
+Started GET "/brands/1" for ::1 at 2020-05-08 00:53:08 +0200
+Processing by BrandsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBrand Load (0.2ms)[0m  [1m[34mSELECT "brands".* FROM "brands" WHERE "brands"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/brands_controller.rb:67:in `set_brand'
+  Rendering brands/show.html.erb within layouts/application
+  Rendered brands/show.html.erb within layouts/application (Duration: 4.3ms | Allocations: 225)
+Completed 200 OK in 20ms (Views: 14.1ms | ActiveRecord: 0.4ms | Allocations: 11765)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 00:53:15 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 644)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.2ms | Allocations: 11401)
+
+
+Started GET "/orders/new" for ::1 at 2020-05-08 00:53:22 +0200
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 1.6ms | Allocations: 1160)
+  Rendered orders/new.html.erb within layouts/application (Duration: 10.3ms | Allocations: 1494)
+Completed 200 OK in 22ms (Views: 16.4ms | ActiveRecord: 0.4ms | Allocations: 14829)
+
+
+Started POST "/orders" for ::1 at 2020-05-08 00:53:33 +0200
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"8sHxFflNsm484Kw1mLoBLaWeB10yeS7KWall7dq1v5kWDX95IVwIIr6O9WSZXYVo6Gcz/6PMA/Dj4ZEZ3mJc3Q==", "order"=>{"orderstate"=>"pending ", "user_id"=>"mayar"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:30:in `block in create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:30:in `block in create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/orders_controller.rb:30:in `block in create'
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 3.6ms | Allocations: 847)
+  Rendered orders/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 930)
+Completed 200 OK in 36ms (Views: 19.7ms | ActiveRecord: 0.9ms | Allocations: 15935)
+
+
+Started POST "/orders" for ::1 at 2020-05-08 00:56:38 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"P7cLmUpmd46xqbMaLN8+XHXLX+gSy0b88R7O1TrSQhnbe4X1knfNwjPH6kstOLoZODJrSoN+a8ZLVjohPgWhXQ==", "order"=>{"orderstate"=>"pending ", "user_id"=>"mayar"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 1.1ms | Allocations: 14842)
+
+
+  
+NoMethodError (undefined method `permit_params' for #<Class:0x00005626b6ee24c8>):
+  
+app/models/order.rb:5:in `<class:Order>'
+app/models/order.rb:1:in `<main>'
+app/controllers/orders_controller.rb:27:in `create'
+Started POST "/orders" for ::1 at 2020-05-08 00:58:35 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+NoMethodError (undefined method `permit_params' for OrdersController:Class):
+  
+app/controllers/orders_controller.rb:4:in `<class:OrdersController>'
+app/controllers/orders_controller.rb:1:in `<main>'
+Started POST "/orders" for ::1 at 2020-05-08 01:00:56 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"P7cLmUpmd46xqbMaLN8+XHXLX+gSy0b88R7O1TrSQhnbe4X1knfNwjPH6kstOLoZODJrSoN+a8ZLVjohPgWhXQ==", "order"=>{"orderstate"=>"pending ", "user_id"=>"mayar"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:31:in `block in create'
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:31:in `block in create'
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/orders_controller.rb:31:in `block in create'
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 1.8ms | Allocations: 851)
+  Rendered orders/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 935)
+Completed 200 OK in 93ms (Views: 13.1ms | ActiveRecord: 3.7ms | Allocations: 27385)
+
+
+Started POST "/orders" for ::1 at 2020-05-08 01:20:01 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"P7cLmUpmd46xqbMaLN8+XHXLX+gSy0b88R7O1TrSQhnbe4X1knfNwjPH6kstOLoZODJrSoN+a8ZLVjohPgWhXQ==", "order"=>{"orderstate"=>"pending ", "user_id"=>"mayar"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 1.0ms | Allocations: 836)
+  Rendered orders/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 920)
+Completed 200 OK in 26ms (Views: 10.6ms | ActiveRecord: 0.1ms | Allocations: 23809)
+
+
+Started POST "/orders" for ::1 at 2020-05-08 01:20:06 +0200
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"2wDimJmJqlvLvsw7K/ieuL0wbMZYZSgU+UWb38V/JCU/zGz0QZgQF0nQlWoqHxr98MlYZMnQBS5DDW8rwajHYQ==", "order"=>{"orderstate"=>"pending ", "user_id"=>"mayar"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 0.9ms | Allocations: 820)
+  Rendered orders/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 903)
+Completed 200 OK in 13ms (Views: 8.0ms | ActiveRecord: 0.3ms | Allocations: 12515)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:20:11 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 655)
+Completed 200 OK in 24ms (Views: 18.4ms | ActiveRecord: 0.5ms | Allocations: 11420)
+
+
+Started GET "/orders/new" for ::1 at 2020-05-08 01:20:14 +0200
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 1.1ms | Allocations: 688)
+  Rendered orders/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 771)
+Completed 200 OK in 20ms (Views: 17.4ms | ActiveRecord: 0.1ms | Allocations: 11514)
+
+
+Started POST "/orders" for ::1 at 2020-05-08 01:20:18 +0200
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"KKQlzGXvymIulagO/g3kckXlDNLsIBgc5H7nP8hC6frMaKugvf5wLqz78V//6mA3CBw4cH2VNSZeNhPLzJUKvg==", "order"=>{"orderstate"=>"pending ", "user_id"=>"mayar"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 2.6ms | Allocations: 820)
+  Rendered orders/new.html.erb within layouts/application (Duration: 3.0ms | Allocations: 903)
+Completed 200 OK in 27ms (Views: 18.8ms | ActiveRecord: 0.5ms | Allocations: 12506)
+
+
+Started POST "/orders" for ::1 at 2020-05-08 01:20:56 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"R34fnKxdHkgb/hkpwhbVq09GAjC8CUOhtPEwGThgJT6jspHwdEykBJmQQHjD8VHuAr82ki28bpsOucTtPLfGeg==", "order"=>{"orderstate"=>"pending ", "user_id"=>"yasmine"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:33:in `block in create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:33:in `block in create'
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/orders_controller.rb:33:in `block in create'
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 1.3ms | Allocations: 851)
+  Rendered orders/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 935)
+Completed 200 OK in 31ms (Views: 7.8ms | ActiveRecord: 1.6ms | Allocations: 27381)
+
+
+Started POST "/orders" for ::1 at 2020-05-08 01:21:06 +0200
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"Kkt3sCtBgXQLIYy4d0gOCW08J0v/y08Tlepw3yaS1X/Oh/nc81A7OIlP1el2r4pMIMUT6W5+YikvooQrIkU2Ow==", "order"=>{"orderstate"=>"pending ", "user_id"=>"1"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:33:in `block in create'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:33:in `block in create'
+  [1m[36mOrder Create (0.6ms)[0m  [1m[32mINSERT INTO "orders" ("orderstate", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["orderstate", "pending "], ["user_id", 1], ["created_at", "2020-05-07 23:21:06.505921"], ["updated_at", "2020-05-07 23:21:06.505921"]]
+  ↳ app/controllers/orders_controller.rb:33:in `block in create'
+  [1m[35m (9.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/orders_controller.rb:33:in `block in create'
+Redirected to http://localhost:3000/orders/1
+Completed 302 Found in 29ms (ActiveRecord: 10.7ms | Allocations: 6644)
+
+
+Started GET "/orders/1" for ::1 at 2020-05-08 01:21:06 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:70:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 255)
+Completed 200 OK in 18ms (Views: 10.8ms | ActiveRecord: 0.5ms | Allocations: 12274)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:21:16 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 781)
+Completed 200 OK in 25ms (Views: 19.2ms | ActiveRecord: 0.6ms | Allocations: 11508)
+
+
+Started GET "/orders/1/edit" for ::1 at 2020-05-08 01:21:21 +0200
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:70:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:24:in `edit'
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 2.7ms | Allocations: 763)
+  Rendered orders/edit.html.erb within layouts/application (Duration: 12.1ms | Allocations: 1003)
+Completed 200 OK in 39ms (Views: 31.3ms | ActiveRecord: 0.5ms | Allocations: 12886)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:29:06 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 3215)
+Completed 200 OK in 22ms (Views: 11.1ms | ActiveRecord: 0.2ms | Allocations: 22270)
+
+
+Started GET "/orders/new" for ::1 at 2020-05-08 01:29:10 +0200
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 14.6ms | Allocations: 693)
+  Rendered orders/new.html.erb within layouts/application (Duration: 15.1ms | Allocations: 776)
+Completed 200 OK in 31ms (Views: 26.6ms | ActiveRecord: 0.2ms | Allocations: 11535)
+
+
+Started POST "/orders" for ::1 at 2020-05-08 01:29:17 +0200
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"9UTpQsn8/goO8azMQ33+IJuiZnUg9THlVi/8lNK3cmERiGcuEe1ERoyf9Z1Cmnpl1ltS17FAHN/sZwhg1mCRJQ==", "order"=>{"orderstate"=>"pending ", "user_id"=>"1"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 404 Not Found in 15ms (ActiveRecord: 1.2ms | Allocations: 4980)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Product without an ID):
+  
+app/controllers/orders_controller.rb:33:in `create'
+Started POST "/orders" for ::1 at 2020-05-08 01:29:58 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"9UTpQsn8/goO8azMQ33+IJuiZnUg9THlVi/8lNK3cmERiGcuEe1ERoyf9Z1Cmnpl1ltS17FAHN/sZwhg1mCRJQ==", "order"=>{"orderstate"=>"pending ", "user_id"=>"1"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[36mOrder Create (0.2ms)[0m  [1m[32mINSERT INTO "orders" ("orderstate", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["orderstate", "pending"], ["user_id", 1], ["created_at", "2020-05-07 23:29:58.554101"], ["updated_at", "2020-05-07 23:29:58.554101"]]
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+Redirected to http://localhost:3000/orders/2
+Completed 302 Found in 31ms (ActiveRecord: 8.0ms | Allocations: 18756)
+
+
+Started GET "/orders/2" for ::1 at 2020-05-08 01:29:58 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 92)
+Completed 200 OK in 14ms (Views: 7.1ms | ActiveRecord: 0.6ms | Allocations: 12158)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:30:02 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 906)
+Completed 200 OK in 17ms (Views: 13.5ms | ActiveRecord: 0.3ms | Allocations: 11656)
+
+
+Started GET "/orders/new" for ::1 at 2020-05-08 01:33:10 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 1.0ms | Allocations: 751)
+  Rendered orders/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 835)
+Completed 200 OK in 25ms (Views: 7.7ms | ActiveRecord: 1.3ms | Allocations: 23033)
+
+
+Started POST "/orders" for ::1 at 2020-05-08 01:33:27 +0200
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"ZWZfmFtw4wX4MqIYOdv5liLYrGaB3IvmF3mRcJXQ8+GBqtH0g2FZSXpc+0k4PH3TbyGYxBBpptytMWWEkQcQpQ==", "order"=>{"orderstate"=>"confirmed", "user_id"=>"2"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[36mOrder Create (0.6ms)[0m  [1m[32mINSERT INTO "orders" ("orderstate", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["orderstate", "pending"], ["user_id", 1], ["created_at", "2020-05-07 23:33:27.895827"], ["updated_at", "2020-05-07 23:33:27.895827"]]
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+Redirected to http://localhost:3000/orders/3
+Completed 302 Found in 26ms (ActiveRecord: 7.2ms | Allocations: 7447)
+
+
+Started GET "/orders/3" for ::1 at 2020-05-08 01:33:27 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 85)
+Completed 200 OK in 19ms (Views: 12.1ms | ActiveRecord: 0.4ms | Allocations: 11977)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:33:47 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1031)
+Completed 200 OK in 21ms (Views: 14.4ms | ActiveRecord: 0.6ms | Allocations: 11787)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:34:10 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 3748)
+Completed 200 OK in 38ms (Views: 12.7ms | ActiveRecord: 2.5ms | Allocations: 23317)
+
+
+Started GET "/orders/new" for ::1 at 2020-05-08 01:34:13 +0200
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 2.3ms | Allocations: 693)
+  Rendered orders/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 776)
+Completed 200 OK in 25ms (Views: 20.6ms | ActiveRecord: 0.2ms | Allocations: 11520)
+
+
+Started POST "/orders" for ::1 at 2020-05-08 01:34:19 +0200
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"bUZqS3pcYhr1sjKyw5do7BkCL5moKwqAcJvRok/cBEiJiuQnok3YVnfca+PCcOypVPsbOzmeJ7rK0yVWSwvnDA==", "order"=>{"orderstate"=>"confirmed", "user_id"=>"2"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[36mOrder Create (0.5ms)[0m  [1m[32mINSERT INTO "orders" ("orderstate", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["orderstate", "pending"], ["user_id", 2], ["created_at", "2020-05-07 23:34:19.608851"], ["updated_at", "2020-05-07 23:34:19.608851"]]
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+Redirected to http://localhost:3000/orders/4
+Completed 302 Found in 26ms (ActiveRecord: 7.1ms | Allocations: 7438)
+
+
+Started GET "/orders/4" for ::1 at 2020-05-08 01:34:19 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 82)
+Completed 200 OK in 28ms (Views: 18.6ms | ActiveRecord: 0.6ms | Allocations: 11952)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:34:25 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1138)
+Completed 200 OK in 16ms (Views: 10.8ms | ActiveRecord: 0.2ms | Allocations: 11880)
+
+
+Started GET "/orders/new" for ::1 at 2020-05-08 01:36:44 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 1.1ms | Allocations: 751)
+  Rendered orders/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 835)
+Completed 200 OK in 34ms (Views: 8.0ms | ActiveRecord: 1.7ms | Allocations: 23025)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:36:48 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1169)
+Completed 200 OK in 23ms (Views: 16.4ms | ActiveRecord: 0.6ms | Allocations: 11937)
+
+
+Started GET "/orders/4/edit" for ::1 at 2020-05-08 01:37:01 +0200
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:24:in `edit'
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 2.5ms | Allocations: 735)
+  Rendered orders/edit.html.erb within layouts/application (Duration: 3.1ms | Allocations: 848)
+Completed 200 OK in 27ms (Views: 19.4ms | ActiveRecord: 0.5ms | Allocations: 12715)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:39:03 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.6ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 1138)
+Completed 200 OK in 27ms (Views: 20.5ms | ActiveRecord: 0.8ms | Allocations: 11878)
+
+
+Started GET "/orders/3" for ::1 at 2020-05-08 01:39:06 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 80)
+Completed 200 OK in 13ms (Views: 10.2ms | ActiveRecord: 0.2ms | Allocations: 11826)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:39:12 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1138)
+Completed 200 OK in 25ms (Views: 20.3ms | ActiveRecord: 0.4ms | Allocations: 11890)
+
+
+Started GET "/orders/3" for ::1 at 2020-05-08 01:39:14 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 80)
+Completed 200 OK in 25ms (Views: 17.6ms | ActiveRecord: 0.4ms | Allocations: 11822)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:39:16 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1138)
+Completed 200 OK in 24ms (Views: 19.7ms | ActiveRecord: 0.4ms | Allocations: 11877)
+
+
+Started GET "/orders/3" for ::1 at 2020-05-08 01:39:18 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 80)
+Completed 200 OK in 26ms (Views: 18.3ms | ActiveRecord: 0.4ms | Allocations: 11818)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 01:39:20 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1138)
+Completed 200 OK in 26ms (Views: 21.1ms | ActiveRecord: 0.4ms | Allocations: 11870)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 02:04:19 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 15.3ms | Allocations: 1406)
+Completed 200 OK in 34ms (Views: 28.4ms | ActiveRecord: 0.8ms | Allocations: 13578)
+
+
+Started GET "/orders/1" for ::1 at 2020-05-08 02:04:23 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.7ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 243)
+Completed 200 OK in 32ms (Views: 18.8ms | ActiveRecord: 1.0ms | Allocations: 12154)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 02:04:26 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1141)
+Completed 200 OK in 24ms (Views: 18.6ms | ActiveRecord: 0.4ms | Allocations: 11881)
+
+
+Started GET "/orders/4" for ::1 at 2020-05-08 02:04:29 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 80)
+Completed 200 OK in 29ms (Views: 21.4ms | ActiveRecord: 0.5ms | Allocations: 11825)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 02:04:31 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1138)
+Completed 200 OK in 25ms (Views: 19.6ms | ActiveRecord: 0.4ms | Allocations: 11876)
+
+
+Started GET "/orders/4" for ::1 at 2020-05-08 02:06:17 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 91)
+Completed 200 OK in 26ms (Views: 7.4ms | ActiveRecord: 1.1ms | Allocations: 23435)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 02:06:18 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1206)
+Completed 200 OK in 23ms (Views: 17.8ms | ActiveRecord: 0.5ms | Allocations: 11953)
+
+
+Started GET "/orders/1" for ::1 at 2020-05-08 02:06:22 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 80)
+Completed 200 OK in 22ms (Views: 14.2ms | ActiveRecord: 0.6ms | Allocations: 11827)
+
+
+Started GET "/orders/1/edit" for ::1 at 2020-05-08 02:06:23 +0200
+Processing by OrdersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:73:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:24:in `edit'
+  Rendering orders/edit.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 3.4ms | Allocations: 1046)
+  Rendered orders/edit.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1426)
+Completed 200 OK in 30ms (Views: 18.7ms | ActiveRecord: 0.6ms | Allocations: 13306)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 02:06:27 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1141)
+Completed 200 OK in 18ms (Views: 13.4ms | ActiveRecord: 0.4ms | Allocations: 11886)
+
+
+Started GET "/orders/1" for ::1 at 2020-05-08 02:11:38 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:74:in `set_order'
+  [1m[36mCACHE Order Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 91)
+Completed 200 OK in 24ms (Views: 6.7ms | ActiveRecord: 1.0ms | Allocations: 23448)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 02:11:41 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1206)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.2ms | Allocations: 11961)
+
+
+Started GET "/orders/3" for ::1 at 2020-05-08 02:11:43 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:74:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 80)
+Completed 200 OK in 12ms (Views: 7.8ms | ActiveRecord: 0.2ms | Allocations: 11812)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 02:15:30 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 4118)
+Completed 200 OK in 25ms (Views: 12.1ms | ActiveRecord: 1.0ms | Allocations: 24914)
+
+
+Started GET "/orders/1" for ::1 at 2020-05-08 02:15:32 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:74:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 243)
+Completed 200 OK in 29ms (Views: 19.2ms | ActiveRecord: 0.5ms | Allocations: 12242)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 02:15:34 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1141)
+Completed 200 OK in 24ms (Views: 19.1ms | ActiveRecord: 0.4ms | Allocations: 11882)
+
+
+Started GET "/orders/new" for ::1 at 2020-05-08 02:15:37 +0200
+Processing by OrdersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/new.html.erb within layouts/application
+  Rendered orders/_form.html.erb (Duration: 4.2ms | Allocations: 999)
+  Rendered orders/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1326)
+Completed 200 OK in 26ms (Views: 20.5ms | ActiveRecord: 0.2ms | Allocations: 12209)
+
+
+Started POST "/orders" for ::1 at 2020-05-08 02:15:47 +0200
+Processing by OrdersController#create as HTML
+  Parameters: {"authenticity_token"=>"8GxKFGSu4LiyERTOi6oqM5jy3TvBT3nN18qA2xHBjSEUoMR4vL9a9DB/TZ+KTa521QvpmVD6VPdtgnQvFRZuZQ==", "order"=>{"orderstate"=>"confirmed", "user_id"=>"2"}, "commit"=>"Create Order"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[36mOrder Create (0.3ms)[0m  [1m[32mINSERT INTO "orders" ("orderstate", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["orderstate", "pending"], ["user_id", 2], ["created_at", "2020-05-08 00:15:47.304375"], ["updated_at", "2020-05-08 00:15:47.304375"]]
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+  [1m[35m (8.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/orders_controller.rb:36:in `block in create'
+Redirected to http://localhost:3000/orders/5
+Completed 302 Found in 23ms (ActiveRecord: 9.7ms | Allocations: 7434)
+
+
+Started GET "/orders/5" for ::1 at 2020-05-08 02:15:47 +0200
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:74:in `set_order'
+  [1m[36mCACHE Order Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/orders_controller.rb:14:in `show'
+  Rendering orders/show.html.erb within layouts/application
+  Rendered orders/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 84)
+Completed 200 OK in 13ms (Views: 9.4ms | ActiveRecord: 0.2ms | Allocations: 11846)
+
+
+Started GET "/orders" for ::1 at 2020-05-08 02:15:53 +0200
+Processing by OrdersController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/orders/index.html.erb:15
+  Rendered orders/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1266)
+Completed 200 OK in 13ms (Views: 9.8ms | ActiveRecord: 0.2ms | Allocations: 12010)
+
+
+Started GET "/admin" for ::1 at 2020-05-08 02:18:38 +0200
+Processing by Admin::DashboardController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/page/index.html.arb (Duration: 22.6ms | Allocations: 24151)
+Completed 200 OK in 45ms (Views: 24.6ms | ActiveRecord: 1.3ms | Allocations: 31128)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-08 02:18:41 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 101.7ms | Allocations: 86470)
+Completed 200 OK in 112ms (Views: 103.4ms | ActiveRecord: 2.9ms | Allocations: 89800)
+
+
+Started GET "/admin/users/new" for ::1 at 2020-05-08 02:18:58 +0200
+Processing by Admin::UsersController#new as HTML
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 47.5ms | Allocations: 40807)
+Completed 200 OK in 60ms (Views: 50.2ms | ActiveRecord: 0.4ms | Allocations: 43732)
+
+
+Started POST "/admin/users" for ::1 at 2020-05-08 02:19:43 +0200
+Processing by Admin::UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"1GdsuGOTbaH5ttaxj4CHVMXhYVmjdeu97HF6sgfH9c6lllXPfSN1fMRKqQ93z4TTXYq4zkjzvVZ98SLYbhGbDQ==", "user"=>{"email"=>"manar@gmail.com", "reset_password_token"=>"[FILTERED]", "reset_password_sent_at(1i)"=>"[FILTERED]", "reset_password_sent_at(2i)"=>"[FILTERED]", "reset_password_sent_at(3i)"=>"[FILTERED]", "reset_password_sent_at(4i)"=>"[FILTERED]", "reset_password_sent_at(5i)"=>"[FILTERED]", "remember_created_at(1i)"=>"2016", "remember_created_at(2i)"=>"1", "remember_created_at(3i)"=>"4", "remember_created_at(4i)"=>"02", "remember_created_at(5i)"=>"03", "name"=>"manar", "seller_role"=>"0", "buyer_role"=>"1"}, "commit"=>"Create User"}
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "manar@gmail.com"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 39.7ms | Allocations: 40615)
+Completed 200 OK in 64ms (Views: 40.1ms | ActiveRecord: 0.7ms | Allocations: 53121)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-08 02:19:45 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.0ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.0ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 112.5ms | Allocations: 72192)
+Completed 200 OK in 125ms (Views: 114.6ms | ActiveRecord: 0.8ms | Allocations: 74397)
+
+
+Started GET "/admin/users/3/edit" for ::1 at 2020-05-08 02:19:49 +0200
+Processing by Admin::UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/edit.html.arb (Duration: 39.3ms | Allocations: 43229)
+Completed 200 OK in 51ms (Views: 41.8ms | ActiveRecord: 0.4ms | Allocations: 47246)
+
+
+Started PATCH "/admin/users/3" for ::1 at 2020-05-08 02:19:52 +0200
+Processing by Admin::UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"vHd+zRd7UxAqrFrtuxb2d0aT0iG0WRHo1BqngTDHGf/Nhke6CctLzRdQJVNDWfXw3vgLtl/fRwNFmv/rWRF3PA==", "user"=>{"email"=>"mayar@gmail.com", "reset_password_token"=>"[FILTERED]", "reset_password_sent_at(1i)"=>"[FILTERED]", "reset_password_sent_at(2i)"=>"[FILTERED]", "reset_password_sent_at(3i)"=>"[FILTERED]", "reset_password_sent_at(4i)"=>"[FILTERED]", "reset_password_sent_at(5i)"=>"[FILTERED]", "remember_created_at(1i)"=>"", "remember_created_at(2i)"=>"", "remember_created_at(3i)"=>"", "remember_created_at(4i)"=>"", "remember_created_at(5i)"=>"", "name"=>"mayar", "seller_role"=>"0", "buyer_role"=>"0"}, "commit"=>"Update User", "id"=>"3"}
+  [1m[36mAdminUser Load (0.4ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE "users" SET "reset_password_token" = ?, "buyer_role" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["reset_password_token", "1"], ["buyer_role", 0], ["updated_at", "2020-05-08 00:19:52.608164"], ["id", 3]]
+  [1m[35m (14.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/users/3
+Completed 302 Found in 48ms (ActiveRecord: 15.8ms | Allocations: 13586)
+
+
+Started GET "/admin/users/3" for ::1 at 2020-05-08 02:19:52 +0200
+Processing by Admin::UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "User"], ["resource_id", 3], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "User"], ["resource_id", 3], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb (Duration: 36.0ms | Allocations: 38078)
+Completed 200 OK in 45ms (Views: 38.6ms | ActiveRecord: 0.6ms | Allocations: 42000)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-08 02:19:55 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.2ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.1ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 78.2ms | Allocations: 72087)
+Completed 200 OK in 86ms (Views: 78.0ms | ActiveRecord: 1.1ms | Allocations: 74286)
+
+
+Started GET "/admin/users/3/edit" for ::1 at 2020-05-08 02:20:02 +0200
+Processing by Admin::UsersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/edit.html.arb
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/edit.html.arb (Duration: 47.4ms | Allocations: 42950)
+Completed 200 OK in 56ms (Views: 48.5ms | ActiveRecord: 0.5ms | Allocations: 46005)
+
+
+Started PATCH "/admin/users/3" for ::1 at 2020-05-08 02:20:06 +0200
+Processing by Admin::UsersController#update as HTML
+  Parameters: {"authenticity_token"=>"mr+c5NK7vq1bmkBzpd4RB+Sr3SSzthCTwpQKXk/NyYXrTqWTzAumcGZmP81dkRKAfMAEs1gwRnhTFFI0JhunRg==", "user"=>{"email"=>"mayar@gmail.com", "reset_password_token"=>"[FILTERED]", "reset_password_sent_at(1i)"=>"[FILTERED]", "reset_password_sent_at(2i)"=>"[FILTERED]", "reset_password_sent_at(3i)"=>"[FILTERED]", "reset_password_sent_at(4i)"=>"[FILTERED]", "reset_password_sent_at(5i)"=>"[FILTERED]", "remember_created_at(1i)"=>"", "remember_created_at(2i)"=>"", "remember_created_at(3i)"=>"", "remember_created_at(4i)"=>"", "remember_created_at(5i)"=>"", "name"=>"mayar", "seller_role"=>"0", "buyer_role"=>"1"}, "commit"=>"Update User", "id"=>"3"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Update (0.4ms)[0m  [1m[33mUPDATE "users" SET "buyer_role" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["buyer_role", 1], ["updated_at", "2020-05-08 00:20:06.477915"], ["id", 3]]
+  [1m[35m (13.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/users/3
+Completed 302 Found in 34ms (ActiveRecord: 15.2ms | Allocations: 10761)
+
+
+Started GET "/admin/users/3" for ::1 at 2020-05-08 02:20:06 +0200
+Processing by Admin::UsersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "User"], ["resource_id", 3], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "User"], ["resource_id", 3], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb (Duration: 25.1ms | Allocations: 37191)
+Completed 200 OK in 31ms (Views: 26.0ms | ActiveRecord: 0.4ms | Allocations: 40258)
+
+
+Started GET "/admin/users" for ::1 at 2020-05-08 02:20:08 +0200
+Processing by Admin::UsersController#index as HTML
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "users"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "users" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" ORDER BY "users"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mActiveStorage::Attachment Load (0.1ms)[0m  [1m[34mSELECT "active_storage_attachments".* FROM "active_storage_attachments"[0m
+  [1m[36mActiveStorage::Blob Load (0.0ms)[0m  [1m[34mSELECT "active_storage_blobs".* FROM "active_storage_blobs"[0m
+  [1m[36mOrder Load (0.0ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 74.4ms | Allocations: 72158)
+Completed 200 OK in 82ms (Views: 75.1ms | ActiveRecord: 0.8ms | Allocations: 74364)
+
+
+Started GET "/admin/stores" for ::1 at 2020-05-08 02:20:12 +0200
+Processing by Admin::StoresController#index as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "stores"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mStore Load (0.1ms)[0m  [1m[34mSELECT "stores".* FROM "stores" ORDER BY "stores"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProduct Load (0.2ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 69.3ms | Allocations: 72698)
+Completed 200 OK in 80ms (Views: 69.3ms | ActiveRecord: 2.3ms | Allocations: 75676)
+
+
+Started GET "/admin/stores/new" for ::1 at 2020-05-08 02:20:16 +0200
+Processing by Admin::StoresController#new as HTML
+  [1m[36mAdminUser Load (0.3ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/new.html.arb (Duration: 37.7ms | Allocations: 32757)
+Completed 200 OK in 46ms (Views: 39.8ms | ActiveRecord: 0.4ms | Allocations: 35334)
+
+
+Started POST "/admin/stores" for ::1 at 2020-05-08 02:20:40 +0200
+Processing by Admin::StoresController#create as HTML
+  Parameters: {"authenticity_token"=>"Xwd+yfm5D0SgIp7/KrkVYbNXkPWSgIPpfzFmJHpRjdMu9ke+5wkXmZ3e4UHS9hbmKzxJYnkG1QLusT5OE4fjEA==", "store"=>{"user_id"=>"3", "name"=>"seller store", "summary"=>"test "}, "commit"=>"Create Store"}
+  [1m[36mAdminUser Load (0.2ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mStore Create (0.4ms)[0m  [1m[32mINSERT INTO "stores" ("name", "summary", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "seller store"], ["summary", "test "], ["user_id", 3], ["created_at", "2020-05-08 00:20:40.748788"], ["updated_at", "2020-05-08 00:20:40.748788"]]
+  [1m[35m (8.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/admin/stores/4
+Completed 302 Found in 32ms (ActiveRecord: 9.9ms | Allocations: 11552)
+
+
+Started GET "/admin/stores/4" for ::1 at 2020-05-08 02:20:40 +0200
+Processing by Admin::StoresController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAdminUser Load (0.1ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mStore Load (0.2ms)[0m  [1m[34mSELECT "stores".* FROM "stores" WHERE "stores"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ?[0m  [["resource_type", "Store"], ["resource_id", 4], ["namespace", "admin"]]
+  [1m[36mActiveAdmin::Comment Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "active_admin_comments" WHERE "active_admin_comments"."resource_type" = ? AND "active_admin_comments"."resource_id" = ? AND "active_admin_comments"."namespace" = ? LIMIT ? OFFSET ?[0m  [["resource_type", "Store"], ["resource_id", 4], ["namespace", "admin"], ["LIMIT", 1], ["OFFSET", 0]]
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/show.html.arb (Duration: 28.4ms | Allocations: 37981)
+Completed 200 OK in 33ms (Views: 28.8ms | ActiveRecord: 0.9ms | Allocations: 41677)
+
+
+Started GET "/admin/stores" for ::1 at 2020-05-08 02:20:42 +0200
+Processing by Admin::StoresController#index as HTML
+  [1m[36mAdminUser Load (0.7ms)[0m  [1m[34mSELECT "admin_users".* FROM "admin_users" WHERE "admin_users"."id" = ? ORDER BY "admin_users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "stores"[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM (SELECT 1 AS one FROM "stores" LIMIT ? OFFSET ?) subquery_for_count[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mStore Load (0.2ms)[0m  [1m[34mSELECT "stores".* FROM "stores" ORDER BY "stores"."id" desc LIMIT ? OFFSET ?[0m  [["LIMIT", 30], ["OFFSET", 0]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mProduct Load (0.3ms)[0m  [1m[34mSELECT "products".* FROM "products"[0m
+  Rendered /home/mayar/.rbenv/versions/2.7.1/lib/ruby/gems/2.7.0/gems/activeadmin-2.7.0/app/views/active_admin/resource/index.html.arb (Duration: 83.2ms | Allocations: 70320)
+Completed 200 OK in 91ms (Views: 82.9ms | ActiveRecord: 2.0ms | Allocations: 72493)
+
+
