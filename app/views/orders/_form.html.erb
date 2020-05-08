@@ -10,11 +10,12 @@
       </ul>
     </div>
   <% end %>
-
+<% if current_user.seller_role? %>
   <div class="field">
     <%= form.label :orderstate %>
     <%= form.text_field :orderstate %>
   </div>
+<% end %>
 
   <div class="field">
     <%= form.label :user_id %>
