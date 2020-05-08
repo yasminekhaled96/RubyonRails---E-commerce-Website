@@ -1,11 +1,12 @@
 class ProductsController < ApplicationController
-  before_action :set_product, only: [:show, :edit, :update, :destroy]
+  before_action :set_product, only: [:show, :edit, :update, :destroy ]
   load_and_authorize_resource
 
   # GET /products
   # GET /products.json
   def index
-    @products = Product.all
+    @products = Product.where(user_id: current_user.id)
+    # @products = Product.all
   end
 
   # GET /products/1
@@ -27,6 +28,8 @@ class ProductsController < ApplicationController
   # POST /products.json
   def create
     @product = Product.new(product_params)
+    @product.user_id = current_user.id
+    # @categories=Category.all
 
     respond_to do |format|
       if @product.save
@@ -71,7 +74,7 @@ class ProductsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def product_params
-      params.require(:product).permit(:title, :description, :price, :instockquantity, :category_id, :brand_id)
+      params.require(:product).permit(:title, :description, :price, :instockquantity, :category_id, :brand_id , :store_id )
     end
 
     

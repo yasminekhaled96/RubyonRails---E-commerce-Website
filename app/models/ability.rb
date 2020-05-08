@@ -7,11 +7,11 @@ class Ability
    
     user ||= User.new # guest user (not logged in)
     if user.seller_role?
-      can :create, :all
+      can :manage, :all
     end
     if user.buyer_role?
+      # can :read, Product
       can :manage, User
     end
-
   end
 end

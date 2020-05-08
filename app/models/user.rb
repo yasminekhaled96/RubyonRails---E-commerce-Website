@@ -7,10 +7,9 @@ class User < ApplicationRecord
          
   has_one_attached :avatar
   has_many :orders
+  has_many :products
   has_one :store
-
          attr_writer :login
-
          def login
            @login || self.username || self.email
          end
