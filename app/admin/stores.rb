@@ -6,7 +6,8 @@ ActiveAdmin.register Store do
     # Uncomment all parameters which should be permitted for assignment
     #
     permit_params :name, :user_id, :summary
-    #
+     
+    
     # or
     #
     # permit_params do
@@ -15,5 +16,6 @@ ActiveAdmin.register Store do
     #   permitted
     # end
     
+ 
   end
   

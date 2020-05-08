@@ -30,6 +30,7 @@ class OrdersController < ApplicationController
     @order = Order.new(order_params)
     @order.orderstate = "pending"
     # @order.user_id = 1 #current_user_id
+    @order.user_id = current_user.id
   
 
     respond_to do |format|
