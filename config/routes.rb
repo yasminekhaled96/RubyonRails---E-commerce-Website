@@ -16,6 +16,9 @@ Rails.application.routes.draw do
   get 'line_items/:id' => "line_items#show", as: "line_item"
   delete 'line_items/:id' => "line_items#destroy"
 
+
+
+  delete  '/stores/:id(.:format)',to:          'stores#destroy'
 devise_scope :user do
   get '/users/sign_out' => 'devise/sessions#destroy'
 end
