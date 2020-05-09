@@ -11,7 +11,9 @@
       <th>Instockquantity</th>
       <th>Category</th>
       <th>Brand</th>
-      <th colspan="3"></th>
+      <% if can? :manage, :all %>
+       <th colspan="3"></th>
+      <% end %>
     </tr>
   </thead>
 
