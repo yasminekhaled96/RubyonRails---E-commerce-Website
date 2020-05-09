@@ -1,8 +1,14 @@
 <p id="notice"><%= notice %></p>
 
+<div class="container">
 <p>
-  <strong>Image:</strong>
-  <%= image_tag(@product.image) if @product.image.attached? %>
+  <strong>Image: </strong><br/>
+    <% @product.image.each do |img|  if @product.image.attached? %>
+      <%= image_tag( img , {:width => 200, :height => 200, :crop => :fill})  %> 
+      <% end %>
+    <% end %>
+</p>
+  
 <p>
   <strong>Title:</strong>
   <%= @product.title %>
@@ -33,7 +39,7 @@
   <%= @product.brand_id %>
 </p>
 
-
+</div>
 
 
 <%= link_to 'Back', products_path %>
