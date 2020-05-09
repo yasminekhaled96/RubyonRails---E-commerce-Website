@@ -83,6 +83,12 @@ class OrdersController < ApplicationController
     end
   end
 
+  def place 
+    @order = Order.find(params[:id])
+    @order.place
+    flash[:notice] = "Order #{order.id} has been placed"
+    redirect_to :action => 'index', :id => 'placed'
+  end
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_order
@@ -91,6 +97,7 @@ class OrdersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def order_params
-      params.require(:order).permit(:orderstate, :user_id)
+      # params.require(:order).permit(:orderstate, :user_id)
+      params.permit(:data)
     end
 end
