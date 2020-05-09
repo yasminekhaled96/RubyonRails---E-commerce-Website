@@ -1,6 +1,9 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Image:</strong>
+  <%= image_tag(@product.image) if @product.image.attached? %>
+<p>
   <strong>Title:</strong>
   <%= @product.title %>
 </p>
@@ -30,5 +33,7 @@
   <%= @product.brand_id %>
 </p>
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
+
+
+
 <%= link_to 'Back', products_path %>

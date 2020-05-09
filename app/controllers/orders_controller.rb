@@ -1,15 +1,19 @@
 class OrdersController < ApplicationController
   before_action :set_order, only: [:show, :edit, :update, :destroy]
 
+ 
   # GET /orders
   # GET /orders.json
   def index
-    @orders = Order.all
+
+    @user = User.all
+    @orders = Order.where(user_id: current_user.id)
   end
 
   # GET /orders/1
   # GET /orders/1.json
   def show
+    @order= Order.find(params[:id])
   end
 
   # GET /orders/new
@@ -19,12 +23,17 @@ class OrdersController < ApplicationController
 
   # GET /orders/1/edit
   def edit
+    @order= Order.find(params[:id])
   end
 
   # POST /orders
   # POST /orders.json
   def create
     @order = Order.new(order_params)
+    @order.orderstate = "pending"
+    # @order.user_id = 1 #current_user_id
+    @order.user_id = current_user.id
+  
 
     respond_to do |format|
       if @order.save
@@ -40,6 +49,7 @@ class OrdersController < ApplicationController
   # PATCH/PUT /orders/1
   # PATCH/PUT /orders/1.json
   def update
+    @order = Order.find(params[:id])
     respond_to do |format|
       if @order.update(order_params)
         format.html { redirect_to @order, notice: 'Order was successfully updated.' }
@@ -54,6 +64,7 @@ class OrdersController < ApplicationController
   # DELETE /orders/1
   # DELETE /orders/1.json
   def destroy
+    @order = Order.find(params[:id])
     @order.destroy
     respond_to do |format|
       format.html { redirect_to orders_url, notice: 'Order was successfully destroyed.' }

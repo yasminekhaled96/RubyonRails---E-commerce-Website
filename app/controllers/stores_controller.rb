@@ -5,6 +5,7 @@ class StoresController < ApplicationController
   # GET /stores.json
   def index
     @stores = Store.all
+    # @user = User.find(params[:id]).find params.require(:user_id)
   end
 
   # GET /stores/1
@@ -54,6 +55,8 @@ class StoresController < ApplicationController
   # DELETE /stores/1
   # DELETE /stores/1.json
   def destroy
+
+    @store = Store.find(params[:id])
     @store.destroy
     respond_to do |format|
       format.html { redirect_to stores_url, notice: 'Store was successfully destroyed.' }
