@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <title>E-commerce Platform</title>
  
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
 
@@ -10,6 +13,7 @@
  
 </head>
 <body>
+
 	<nav class="navbar navbar-inverse navbar-top navbar-fixed-top">
 		<div class="container-fluid">
 		  <div class="container">
@@ -46,7 +50,8 @@
         </div>
 		 	</div>
 	  </div>
-	</nav>
+  </nav>
+  
 	<div id="main-container" class="container">
 		<%= yield %>
 	</div>

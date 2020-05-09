@@ -6,7 +6,7 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.where(user_id: current_user.id)
-    # @products = Product.all
+    #  @products = Product.all
   end
 
   # GET /products/1
@@ -28,6 +28,7 @@ class ProductsController < ApplicationController
   # POST /products.json
   def create
     @product = Product.new(product_params)
+    @product.image.attach(params[:product][:image])
     @product.user_id = current_user.id
     # @categories=Category.all
 
@@ -45,6 +46,8 @@ class ProductsController < ApplicationController
   # PATCH/PUT /products/1
   # PATCH/PUT /products/1.json
   def update
+    @product.image.attach(params[:product][:image])
+
     respond_to do |format|
       if @product.update(product_params)
         format.html { redirect_to @product, notice: 'Product was successfully updated.' }
