@@ -30,9 +30,20 @@ class OrdersController < ApplicationController
   # POST /orders.json
   def create
     @order = Order.new(order_params)
+    @current_cart.line_items.each do |item|
+      @order.line_items << item
+      item.cart_id = nil
+    end
+
     @order.orderstate = "pending"
     # @order.user_id = 1 #current_user_id
     @order.user_id = current_user.id
+    @order.save
+    Cart.destroy(session[:cart_id])
+    session[:cart_id] = nil
+
+
+   
   
 
     respond_to do |format|
