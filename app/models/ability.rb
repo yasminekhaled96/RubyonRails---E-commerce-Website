@@ -10,8 +10,9 @@ class Ability
       can :manage, :all
     end
     if user.buyer_role?
-      # can :read, Product
-      can :manage, User
+      can :read, :all
+      can :create, Order, user_id: user.id
+      # can :manage, User
     end
   end
 end

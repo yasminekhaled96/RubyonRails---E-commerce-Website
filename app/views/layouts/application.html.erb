@@ -29,8 +29,14 @@
             <% if can? :manage, :all %>
                 <li><%= link_to "Add Product", new_product_path %></li>
                 <li> <li><%= link_to "products", products_path %></li> </li>
+                <li><%= link_to "Orders State", orders_path %></li>
             <% end %>
-                </li>
+
+            <% if current_user.buyer_role? %>
+                <li><%= link_to "products", products_path %></li> 
+                <li><%= link_to "Orders", orders_path %></li>
+            <% end %>
+               
           </ul>
           <ul class="nav navbar-nav navbar-right">
               <% if user_signed_in? %>

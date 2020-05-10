@@ -17,13 +17,16 @@
         <td><%= order.orderstate %></td>
         <td><%= order.user.name=%></td>
         <td><%= link_to 'Show', order %></td>
+        <% if current_user.seller_role %>
         <td><%= link_to 'Edit', edit_order_path(order) %></td>
         <td><%= link_to 'Destroy', order, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
+<% if current_user.buyer_role? %>
 <%= link_to 'New Order', new_order_path %>
+<% end %>

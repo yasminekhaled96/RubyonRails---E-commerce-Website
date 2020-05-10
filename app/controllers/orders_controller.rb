@@ -28,23 +28,26 @@ class OrdersController < ApplicationController
 
   # POST /orders
   # POST /orders.json
-  def create
-    @order = Order.new(order_params)
+  def create 
+    @user = User.all
+    @user_id=current_user.id
+    # @order= Order.find(params[:id])
+    @order = Order.new(user_id: @user_id, orderstate: "pending")
+    add_line_items_to_order
+    @order.save!
+    reset_sessions_cart
+    # @order = Order.new(order_params)
     # @current_cart.line_items.each do |item|
     #   @order.line_items << item
     #   item.cart_id = nil
     # end
 
-    @order.orderstate = "pending"
+    # @order.orderstate = "pending"
     # @order.user_id = 1 #current_user_id
-    @order.user_id = current_user.id
-    @order.save
-    Cart.destroy(session[:cart_id])
-    session[:cart_id] = nil
-
-
-   
-  
+    # @order.user_id = current_user.id
+    # @order.save
+    # Cart.destroy(session[:cart_id])
+    # session[:cart_id] = nil
 
     respond_to do |format|
       if @order.save
@@ -83,21 +86,31 @@ class OrdersController < ApplicationController
     end
   end
 
-  def place 
-    @order = Order.find(params[:id])
-    @order.place
-    flash[:notice] = "Order #{order.id} has been placed"
-    redirect_to :action => 'index', :id => 'placed'
-  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
+
+    def add_line_items_to_order
+      @current_cart.line_items.each do |item|
+        item.cart_id = nil
+        item.order_id = @order.id
+        item.save
+        @order.line_items << item
+      end
+    end
+  
+    def reset_sessions_cart
+      Cart.destroy(session[:cart_id])
+      session[:cart_id] = nil
+    end
+
     def set_order
       @order = Order.find(params[:id])
     end
 
     # Only allow a list of trusted parameters through.
     def order_params
-      # params.require(:order).permit(:orderstate, :user_id)
-      params.permit(:data)
+      params.require(:order).permit(:orderstate, :user_id)
+  
     end
 end
