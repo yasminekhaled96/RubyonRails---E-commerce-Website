@@ -8,12 +8,12 @@ class Product < ApplicationRecord
   belongs_to :store
   belongs_to :user
 
-  # form do |f|
-  #   f.inputs do
-  #   f.input :category_id, as: :select, collection: Category.all.map 
-  #   # f.input :name
-  #   # f.input :summary
-  #   end
-  #   f.actions 
-  # end
+  def self.search(search)
+    if search
+        where(['title LIKE ? OR description LIKE ?', "%#{search}%", "%#{search}%"])
+    else
+        all
+    end
+  end
+
 end
