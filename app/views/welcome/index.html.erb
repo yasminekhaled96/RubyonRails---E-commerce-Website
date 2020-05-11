@@ -31,8 +31,8 @@
   </div>
   <div class="card">
     <a href="#" class="card-link">View Product Details</a>
-    <%= button_to "Add to cart", line_items_path(:product_id => product.id)%>
-  </div>
+    <a href="/carts/<%= product.id %>"> Add to cart </a>
+    </div>
   <br/>
   <%end %>
 

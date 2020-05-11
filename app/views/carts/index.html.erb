@@ -1,0 +1,25 @@
+<% @carts.each do |cart| %>
+    <%if cart.products %>
+    <% cart.products.each do |product| %>
+        
+        <p>
+        <strong>product:</strong>
+        <%= product.title %>
+        </p>
+    
+    
+    
+        <p>
+        <strong>descripption:</strong>
+        <%= product.description %>
+        </p>
+    
+    
+        <p>
+        <strong>price:</strong>
+        <%= product.price %>
+        </p>
+   
+<% end %>  
+<% end %>
+<% end %>  

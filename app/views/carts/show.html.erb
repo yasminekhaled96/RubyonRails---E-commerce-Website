@@ -18,3 +18,31 @@
 <h3>Sub total: <%= number_to_currency(@cart.sub_total) %></h3>
 <%= link_to "Proceed to checkout", new_order_path %><br>
 <%= link_to "Empty cart", cart_path(@current_cart),method: :delete, data: {confirm: "Are you sure?"}%>
+ 
+
+
+<table>
+<tbody>
+  <% if @cart.products %>
+  <% @cart.products.each do |product| %>
+  <tr>
+      <td >
+      <% product.avatars.each_with_index do |avatar, i| %>
+        <%if i == 0 %>
+        <% image_tag(avatar.url) %>
+        <%end%>
+      <%end%>
+      </td>
+      
+      
+      <td>
+      <h5><%= product.title %> </h5>
+      </td>
+
+      <td>
+      <span><%= product.price %> </span>
+      </td>
+
+
+   </tbody>
+   </table>   
