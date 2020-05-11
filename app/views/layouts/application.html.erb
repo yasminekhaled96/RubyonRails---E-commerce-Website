@@ -38,6 +38,7 @@
             <% if current_user.buyer_role? %>
                 <li><%= link_to "products", products_path %></li> 
                 <li><%= link_to "Orders", orders_path %></li>
+                <a class="navbar-brand" href="carts/show">cart</a> 
             <% end %>
                
           </ul>
