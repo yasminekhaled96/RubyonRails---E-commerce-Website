@@ -6,8 +6,15 @@ class OrdersController < ApplicationController
   # GET /orders.json
   def index
 
-    @user = User.all
-    @orders = Order.where(user_id: current_user.id)
+    # @user = User.all
+    # @orders = Order.where(user_id: current_user.id)
+
+
+    if current_user and current_user.seller_role?
+      @orders = Order.all
+    elsif current_user and current_user.buyer_role?
+      @orders = Order.where(user_id: current_user.id)
+    end
   end
 
   # GET /orders/1
@@ -33,9 +40,9 @@ class OrdersController < ApplicationController
     @user_id=current_user.id
     # @order= Order.find(params[:id])
     @order = Order.new(user_id: @user_id, orderstate: "pending")
-    add_line_items_to_order
+    # add_line_items_to_order
     @order.save!
-    reset_sessions_cart
+    # reset_sessions_cart
     # @order = Order.new(order_params)
     # @current_cart.line_items.each do |item|
     #   @order.line_items << item
@@ -90,19 +97,19 @@ class OrdersController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
 
-    def add_line_items_to_order
-      @current_cart.line_items.each do |item|
-        item.cart_id = nil
-        item.order_id = @order.id
-        item.save
-        @order.line_items << item
-      end
-    end
+    # def add_line_items_to_order
+    #   @current_cart.line_items.each do |item|
+    #     item.cart_id = nil
+    #     item.order_id = @order.id
+    #     item.save
+    #     @order.line_items << item
+    #   end
+    # end
   
-    def reset_sessions_cart
-      Cart.destroy(session[:cart_id])
-      session[:cart_id] = nil
-    end
+    # def reset_sessions_cart
+    #   Cart.destroy(session[:cart_id])
+    #   session[:cart_id] = nil
+    # end
 
     def set_order
       @order = Order.find(params[:id])
