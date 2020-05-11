@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+
+  resources :products do
+    collection do
+      get :filter
+    end
+  end
   get 'carts/show'
   devise_for :admin_users,ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
@@ -22,6 +28,9 @@ Rails.application.routes.draw do
 devise_scope :user do
   get '/users/sign_out' => 'devise/sessions#destroy'
 end
+
+
+
   get 'welcome/index'
   root 'welcome#index' 
   resources :brands

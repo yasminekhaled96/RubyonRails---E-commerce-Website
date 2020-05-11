@@ -8,6 +8,8 @@ class Product < ApplicationRecord
   belongs_to :store
   belongs_to :user
 
+
+
   def self.search(search)
     if search
         where(['title LIKE ? OR description LIKE ?', "%#{search}%", "%#{search}%"])
@@ -16,4 +18,11 @@ class Product < ApplicationRecord
     end
   end
 
+  def self.filter(params)
+    products = Product.where(category: params[:category])                     if params[:category].present?
+    products = Product.where(brand: params[:brand])                           if params[:brand].present?
+    products
+  end
+
 end
+

@@ -11,6 +11,7 @@ class Ability
     end
     if user.buyer_role?
       can :read, :all
+      
       can :create, Order, user_id: user.id
       # can :manage, User
     end

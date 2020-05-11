@@ -20,9 +20,6 @@
   <%= @order.created_at %>
 </p>
 
-<p>
-<%= button_to "Place Order", :action =>'place', :id =>@order unless @order.placed? %>
-</p>
 
 <%= link_to 'Edit', edit_order_path(@order) %> |
 <%= link_to 'Back', orders_path %>

@@ -5,9 +5,15 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-    # @products = Product.where(user_id: current_user.id)
+
     @products = Product.search(params[:search]).all
-    #  @products = Product.all
+    
+
+    # @products = Product.all
+    @categories = Category.all
+    @brands = Brand.all
+
+   
   end
 
   # GET /products/1
@@ -70,6 +76,25 @@ class ProductsController < ApplicationController
     end
   end
 
+
+
+  #Filter
+  def filter
+    if (params[:category].blank?) && (params[:brand].blank?) &&(params[:price].blank?) 
+      @products = Product.all
+    else
+      @products = Product.filter(params)
+      @categories = Category.all
+      @brands = Brand.all
+      @category_name = Category.find(params[:category]).name if params[:category].present?
+      @brand_name = Brand.find(params[:brand]).name if params[:brand].present?
+    
+     
+    end
+  end
+
+
+  
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_product
@@ -80,6 +105,10 @@ class ProductsController < ApplicationController
     def product_params
       params.require(:product).permit(:title, :description, :price, :instockquantity, :category_id, :brand_id , :store_id )
     end
+
+    # def filtering_params(params)
+    #   params.slice(:category, :brand)
+    # end
 
     
 end
