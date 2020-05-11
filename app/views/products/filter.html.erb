@@ -27,12 +27,20 @@
                     <h4>Brands</h4>
                         <%= form_tag filter_products_path, method: :get do %>
                         <%= select_tag "brand", options_from_collection_for_select(@brands, "id", "name")%>
-                        <%= submit_tag "Filter By Brand" %>
+                        <%= submit_tag "Filter By Brands" %>
                         <% end %>
                     </div> 
                </br>
 
 
+               <div class="common-filter">
+               <h4>Sellers</h4>
+                   <%= form_tag filter_products_path, method: :get do %>
+                   <%= select_tag "seller", options_from_collection_for_select(@sellers, "id", "name")%>
+                   <%= submit_tag "Filter By Sellers" %>
+                   <% end %>
+               </div>
+<br/>
                <div class="common-filter">
                <h4>Price Range</h4>
                    <%= form_tag filter_products_path, method: :get do %>
