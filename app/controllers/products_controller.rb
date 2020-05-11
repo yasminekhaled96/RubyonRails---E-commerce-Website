@@ -7,8 +7,6 @@ class ProductsController < ApplicationController
   def index
 
     @products = Product.search(params[:search]).all
-    
-
     # @products = Product.all
     @categories = Category.all
     @brands = Brand.all
@@ -80,7 +78,7 @@ class ProductsController < ApplicationController
 
   #Filter
   def filter
-    if (params[:category].blank?) && (params[:brand].blank?) &&(params[:price].blank?) 
+    if (params[:category].blank?) && (params[:brand].blank?) && (params[:price].blank?) 
       @products = Product.all
     else
       @products = Product.filter(params)
@@ -88,8 +86,7 @@ class ProductsController < ApplicationController
       @brands = Brand.all
       @category_name = Category.find(params[:category]).name if params[:category].present?
       @brand_name = Brand.find(params[:brand]).name if params[:brand].present?
-    
-     
+      @price_range = params[:price].keys.first  if params[:price].present?
     end
   end
 
@@ -105,10 +102,6 @@ class ProductsController < ApplicationController
     def product_params
       params.require(:product).permit(:title, :description, :price, :instockquantity, :category_id, :brand_id , :store_id )
     end
-
-    # def filtering_params(params)
-    #   params.slice(:category, :brand)
-    # end
 
     
 end
