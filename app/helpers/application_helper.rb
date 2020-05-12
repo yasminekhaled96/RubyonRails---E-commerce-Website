@@ -6,6 +6,8 @@ module ApplicationHelper
     #     #   gravatar_image_url(user.email, size: size)
     #     end
     # end
+
+ 
     def boostrap_class(alert)
         { success: 'alert-success', error: 'alert-danger', notice: 'alert-success', warning: 'alert-warning',
           danger: 'alert-danger', alert: 'alert-danger' }[alert.to_sym]
@@ -22,6 +24,7 @@ module ApplicationHelper
         end
         nil
       end
+      
     end
     
 

@@ -3,10 +3,12 @@
 <head>
 
   <title>E-commerce Platform</title>
+ 
 
   <%= csrf_meta_tags %>
   <%= csp_meta_tag %>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+ 
 </head>
 <body>
 
@@ -21,15 +23,26 @@
 		        <span class="icon-bar"></span>
 		      </button>
 		      <a class="navbar-brand" href="/">E-commerce Platform</a>
-				</div>
+        </div>
+        
+
+        <% if user_signed_in? %>
 				<div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <% if can? :manage, :all %>
                 <li><%= link_to "Add Product", new_product_path %></li>
                 <li> <li><%= link_to "products", products_path %></li> </li>
+                <li><%= link_to "Orders State", orders_path %></li>
             <% end %>
-                </li>
+            
+            <% if current_user.buyer_role? %>
+                <li><%= link_to "products", products_path %></li> 
+                <li><%= link_to "Orders", orders_path %></li>
+                <a class="navbar-brand" href="carts/show">cart</a> 
+            <% end %>
+               
           </ul>
+          <% end %>
           <ul class="nav navbar-nav navbar-right">
               <% if user_signed_in? %>
               <li><%= link_to "Edit profile", edit_user_registration_path %></li>

@@ -15,6 +15,9 @@
 <% @products.each do |product| %>
   <div class="card">
   <p>
+  <%= product.image %>
+  <p>
+    <div class="card-body">
   <% product.image.each do |img|  if product.image.attached? %>
    <%= image_tag( img , {:width => 150, :height => 150, :crop => :fill}) %>
   <% end %>
@@ -27,9 +30,9 @@
     </div>
   </div>
   <div class="card">
-    <a href="#" class="card-link"><%= link_to 'View product details', product %></a>
-    <a href="#" class="card-link">Add to cart</a>
-  </div>
+    <a href="#" class="card-link">View Product Details</a>
+    <a href="/carts/<%= product.id %>"> Add to cart </a>
+    </div>
   <br/>
   <%end %>
 

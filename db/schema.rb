@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_05_08_153604) do
+ActiveRecord::Schema.define(version: 2020_05_11_185509) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -65,19 +65,12 @@ ActiveRecord::Schema.define(version: 2020_05_08_153604) do
   create_table "carts", force: :cascade do |t|
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "user_id", null: false
+    t.index ["user_id"], name: "index_carts_on_user_id"
   end
 
   create_table "categories", force: :cascade do |t|
     t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
-  create_table "line_items", force: :cascade do |t|
-    t.integer "quantity"
-    t.integer "product_id"
-    t.integer "cart_id"
-    t.integer "order_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -97,6 +90,16 @@ ActiveRecord::Schema.define(version: 2020_05_08_153604) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["user_id"], name: "index_orders_on_user_id"
+  end
+
+  create_table "product_shoppings", force: :cascade do |t|
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.integer "quantity"
+    t.integer "product_id", null: false
+    t.integer "cart_id", null: false
+    t.index ["cart_id"], name: "index_product_shoppings_on_cart_id"
+    t.index ["product_id"], name: "index_product_shoppings_on_product_id"
   end
 
   create_table "products", force: :cascade do |t|
@@ -138,8 +141,11 @@ ActiveRecord::Schema.define(version: 2020_05_08_153604) do
   end
 
   add_foreign_key "active_storage_attachments", "active_storage_blobs", column: "blob_id"
+  add_foreign_key "carts", "users"
   add_foreign_key "order_products", "orders"
   add_foreign_key "orders", "users"
+  add_foreign_key "product_shoppings", "carts"
+  add_foreign_key "product_shoppings", "products"
   add_foreign_key "products", "brands"
   add_foreign_key "products", "categories"
   add_foreign_key "products", "stores"
