@@ -1,0 +1,18 @@
+<% @cart.products.each do |product| %>    
+    <p>
+    <strong>product:</strong>
+    <%= product.title %>
+    </p>
+
+    <p>
+    <strong>descripption:</strong>
+    <%= product.description %>
+    </p>
+
+    <p>
+    <strong>price:</strong>
+    <%= product.price %>
+    </p>
+<% end %>  
+<%= link_to "Proceed to checkout", new_order_path %>
+

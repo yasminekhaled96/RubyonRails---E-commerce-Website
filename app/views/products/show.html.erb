@@ -1,0 +1,59 @@
+<%= flash_messages %>
+<div class="block">
+<header class="masthead" >
+  <div class="container h-100">
+  <div class="row h-100 align-items-center">
+    <div class="col-12 text-center">
+      <h1 class="font-weight-light">E-commerce</h1>
+      <p class="lead">Shop now</p>
+    </div>
+  </div>
+  </div>
+</header>
+
+<br/>
+<p id="notice"><%= notice %></p>
+
+<div class="container">
+<p>
+  <strong>Image: </strong><br/>
+    <% @product.image.each do |img|  if @product.image.attached? %>
+      <%= image_tag( img , {:width => 200, :height => 200, :crop => :fill})  %> 
+      <% end %>
+    <% end %>
+</p>
+  
+<p>
+  <strong>Title:</strong>
+  <%= @product.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @product.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @product.price %>
+</p>
+
+<p>
+  <strong>Instockquantity:</strong>
+  <%= @product.instockquantity %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @product.category_id %>
+</p>
+
+<p>
+  <strong>Brand:</strong>
+  <%= @product.brand_id %>
+</p>
+
+</div>
+
+
+<%= link_to 'Back', products_path %>
