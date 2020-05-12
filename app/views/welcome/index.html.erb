@@ -1,0 +1,40 @@
+<%= flash_messages %>
+<div class="block">
+<header class="masthead" >
+  <div class="container h-100">
+  <div class="row h-100 align-items-center">
+    <div class="col-12 text-center">
+      <h1 class="font-weight-light">E-commerce</h1>
+      <p class="lead">Shop now</p>
+    </div>
+  </div>
+  </div>
+</header>
+
+<div class="card-group">
+<% @products.each do |product| %>
+  <div class="card">
+  <p>
+  <%= product.image %>
+  <p>
+    <div class="card-body">
+  <% product.image.each do |img|  if product.image.attached? %>
+   <%= image_tag( img , {:width => 150, :height => 150, :crop => :fill}) %>
+  <% end %>
+  <% end %>
+  </p>
+    <div class="card-body" style="width: 18rem;">
+      <h5 class="card-title"><%= product.title %></h5>
+      <p class="card-text"><%= product.description %></p>
+      <p class="card-text"><small class="text-muted"><%= product.price %></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <a href="#" class="card-link">View Product Details</a>
+    <a href="/carts/<%= product.id %>"> Add to cart </a>
+    </div>
+  <br/>
+  <%end %>
+
+</div>
+ 
